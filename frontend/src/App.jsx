@@ -183,87 +183,85 @@ export default function App() {
     }
   };
 
-};
+  return (
+    <div className="app-container">
+      <header className="header">
+        <div className="title">Nexus</div>
+        <div>
+          {!address ? (
+            <div style={{ display: 'flex', gap: '10px' }}>
+              <button className="wallet-btn" onClick={() => connectWallet("freighter")}>
+                Connect Freighter
+              </button>
+              <button className="wallet-btn" onClick={() => connectWallet("rabet")}>
+                Connect Rabet
+              </button>
+            </div>
+          ) : (
+            <div className="wallet-connected">
+              {walletType === "freighter" ? "Freighter: " : "Rabet: "}
+              {address.substring(0, 5)}...{address.substring(address.length - 4)}
+            </div>
+          )}
+        </div>
+      </header>
 
-return (
-  <div className="app-container">
-    <header className="header">
-      <div className="title">Nexus</div>
-      <div>
-        {!address ? (
-          <div style={{ display: 'flex', gap: '10px' }}>
-            <button className="wallet-btn" onClick={() => connectWallet("freighter")}>
-              Connect Freighter
-            </button>
-            <button className="wallet-btn" onClick={() => connectWallet("rabet")}>
-              Connect Rabet
-            </button>
+      <section className="global-stats">
+        <h2>Total Impact Raised <span>{total} XLM</span></h2>
+        <div className="progress-bar-container">
+          <div
+            className="progress-bar-fill"
+            style={{ width: `${Math.min((total / GOAL) * 100, 100)}%` }}
+          />
+        </div>
+      </section>
+
+      <main className="campaigns-grid">
+        {CAMPAIGNS.map((camp) => (
+          <div key={camp.id} className="campaign-card">
+            <img src={camp.img} alt={camp.title} className="campaign-image" />
+            <h3 className="campaign-title">{camp.title}</h3>
+            <p className="campaign-desc">{camp.desc}</p>
+
+            <div className="donate-section">
+              <input
+                type="number"
+                placeholder="XLM Amount"
+                className="amount-input"
+                value={amounts[camp.id]}
+                onChange={(e) => handleAmountChange(camp.id, e.target.value)}
+              />
+              <button
+                className="donate-btn"
+                onClick={() => donateToCampaign(camp.id)}
+                disabled={status.startsWith("Pending")}
+              >
+                Fund It
+              </button>
+            </div>
           </div>
-        ) : (
-          <div className="wallet-connected">
-            {walletType === "freighter" ? "Freighter: " : "Rabet: "}
-            {address.substring(0, 5)}...{address.substring(address.length - 4)}
-          </div>
+        ))}
+      </main>
+
+      <div className={`status-toast ${status ? 'visible' : ''} ${status.split(':')[0]}`}>
+        <div>{status}</div>
+        {txHash && (
+          <a
+            href={`https://stellar.expert/explorer/testnet/tx/${txHash}`}
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{
+              display: 'inline-block',
+              marginTop: '8px',
+              color: '#66fcf1',
+              textDecoration: 'underline',
+              fontSize: '0.85rem'
+            }}
+          >
+            View on Stellar Expert
+          </a>
         )}
       </div>
-    </header>
-
-    <section className="global-stats">
-      <h2>Total Impact Raised <span>{total} XLM</span></h2>
-      <div className="progress-bar-container">
-        <div
-          className="progress-bar-fill"
-          style={{ width: `${Math.min((total / GOAL) * 100, 100)}%` }}
-        />
-      </div>
-    </section>
-
-    <main className="campaigns-grid">
-      {CAMPAIGNS.map((camp) => (
-        <div key={camp.id} className="campaign-card">
-          <img src={camp.img} alt={camp.title} className="campaign-image" />
-          <h3 className="campaign-title">{camp.title}</h3>
-          <p className="campaign-desc">{camp.desc}</p>
-
-          <div className="donate-section">
-            <input
-              type="number"
-              placeholder="XLM Amount"
-              className="amount-input"
-              value={amounts[camp.id]}
-              onChange={(e) => handleAmountChange(camp.id, e.target.value)}
-            />
-            <button
-              className="donate-btn"
-              onClick={() => donateToCampaign(camp.id)}
-              disabled={status.startsWith("Pending")}
-            >
-              Fund It
-            </button>
-          </div>
-        </div>
-      ))}
-    </main>
-
-    <div className={`status-toast ${status ? 'visible' : ''} ${status.split(':')[0]}`}>
-      <div>{status}</div>
-      {txHash && (
-        <a
-          href={`https://stellar.expert/explorer/testnet/tx/${txHash}`}
-          target="_blank"
-          rel="noopener noreferrer"
-          style={{
-            display: 'inline-block',
-            marginTop: '8px',
-            color: '#66fcf1',
-            textDecoration: 'underline',
-            fontSize: '0.85rem'
-          }}
-        >
-          View on Stellar Expert
-        </a>
-      )}
     </div>
-  </div>
-);
+  );
 }

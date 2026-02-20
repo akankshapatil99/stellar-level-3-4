@@ -185,7 +185,8 @@ export default function App() {
   const fetchTotal = async () => {
     try {
       // Create a simulated simulateTransaction for getter
-      const tx = new TransactionBuilder(await server.getAccount("GAIY5MO4B37626BZZKUVCH5HYLOKU4ZDRM4EAZAUMX5N54YY3XOPOS53"), { fee: "100", networkPassphrase: Networks.TESTNET })
+      const sourceAccount = await server.getAccount(address || "GBN3TDJC6MGA7BK4QRDXO3MZQJHUNT7QZPTORX4CCMAGZTBGJGXT62CMB");
+      const tx = new TransactionBuilder(sourceAccount, { fee: "100", networkPassphrase: Networks.TESTNET })
         .addOperation(contract.call("get_total"))
         .setTimeout(30)
         .build();

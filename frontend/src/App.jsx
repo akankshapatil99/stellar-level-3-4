@@ -32,6 +32,8 @@ export default function App() {
   const [txHash, setTxHash] = useState("");
   const [amounts, setAmounts] = useState({ 1: "", 2: "", 3: "" });
   const [walletType, setWalletType] = useState(null);
+  const [showCert, setShowCert] = useState(false);
+  const [lastDonation, setLastDonation] = useState({ amount: 0, campaign: "" });
 
   const GOAL = 5000; // Platform-wide goal
 
@@ -163,6 +165,11 @@ export default function App() {
       if (getTxResponse.status === "SUCCESS") {
         setStatus("Success: Donation completed!");
         setTxHash(response.hash);
+
+        const campaignTitle = CAMPAIGNS.find(c => c.id === id)?.title;
+        setLastDonation({ amount: amt, campaign: campaignTitle });
+        setShowCert(true);
+
         fetchTotal();
         setAmounts(prev => ({ ...prev, [id]: "" }));
       } else {
@@ -297,6 +304,29 @@ export default function App() {
           </a>
         )}
       </div>
+
+      {showCert && (
+        <div className="cert-overlay" onClick={() => setShowCert(false)}>
+          <div className="cert-modal" onClick={e => e.stopPropagation()}>
+            <div className="cert-border">
+              <div className="cert-content">
+                <h2 className="cert-title">Certificate of Gratitude</h2>
+                <div className="cert-divider"></div>
+                <p className="cert-text">This certifies that</p>
+                <h3 className="cert-address">{address}</h3>
+                <p className="cert-text">has generously donated</p>
+                <h2 className="cert-amount">{lastDonation.amount} XLM</h2>
+                <p className="cert-text">to support</p>
+                <h3 className="cert-campaign">"{lastDonation.campaign}"</h3>
+                <div className="cert-divider"></div>
+                <p className="cert-footer">Secured on the Stellar Network</p>
+                <p className="cert-hash">Tx: {txHash?.substring(0, 16)}...</p>
+                <button className="cert-close-btn" onClick={() => setShowCert(false)}>Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 }

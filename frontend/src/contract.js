@@ -7,7 +7,8 @@ import {
 
 const server = new rpc.Server("https://soroban-testnet.stellar.org");
 
-const CONTRACT_ID = "CAOD5LAIOGIT4TWZD6FCV2YDDRPQPBPG4EAWCUURXICQYWUBKJYAIAWI";
+// Updated to the verified multi-campaign contract ID
+const CONTRACT_ID = "CBTOFZ5WLTXLBNOEK4BPCKMSNLGUB6HXLEWQSXVP4Y2LJEKJ2RA2ZO5E";
 
 const contract = new Contract(CONTRACT_ID);
 

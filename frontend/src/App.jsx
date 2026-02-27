@@ -8,48 +8,48 @@ import "./App.css";
 const CAMPAIGNS = [
   {
     id: 1,
-    title: "Project Ocean Cleanup",
-    desc: "Deploying autonomous systems to remove plastics from our oceans globally.",
-    longDesc: "Project Ocean Cleanup aims to deploy advanced, autonomous drone systems into the Great Pacific Garbage Patch and other highly polluted offshore areas to collect macroplastics before they degrade into microplastics. We partner with local maritime agencies to ensure safe and efficient extraction and recycling of the collected materials.",
-    location: "Global Waters (Pacific Focus)",
-    organizer: "Ocean Guardians NGO",
-    img: "https://images.unsplash.com/photo-1483683804023-6ccdb62f86ef?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+    title: "Ganges River Cleanup",
+    desc: "Deploying autonomous systems to remove plastics and pollutants from the Ganges river.",
+    longDesc: "The Ganges River is critical to India's ecosystem but suffers from severe pollution. Our initiative deploys advanced drone systems and works with local communities to collect waste before it degrades. We ensure safe extraction and recycling to restore the river's natural beauty.",
+    location: "Varanasi, India",
+    organizer: "Ganga Action Parivar",
+    img: "https://images.unsplash.com/photo-1620215746939-5095d3110e53?auto=format&fit=crop&w=800&q=80"
   },
   {
     id: 2,
-    title: "Global Reforestation",
-    desc: "Planting native trees to restore critical ecosystems and offset carbon footprint.",
-    longDesc: "Deforestation is a significant contributor to global climate change. Global Reforestation partners with indigenous communities across the Amazon, Congo, and Southeast Asian basins to plant millions of native tree species. Every tree planted is tracked and certified, providing verifiable carbon offset credits and restoring local biodiversity.",
-    location: "South America & Africa",
-    organizer: "Green Earth Coalition",
+    title: "Himalayan Reforestation",
+    desc: "Planting native trees to restore critical ecosystems in the Himalayan foothills.",
+    longDesc: "Deforestation in the Himalayas contributes to landslides and climate change. We partner with local mountain communities to plant millions of native tree species. Every tree planted is tracked, helping prevent soil erosion, offset carbon, and restore biodiversity in the region.",
+    location: "Uttarakhand, India",
+    organizer: "Himalayan Green Earth",
     img: "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
   },
   {
     id: 3,
     title: "Rural Education Tech",
     desc: "Supplying solar-powered laptops and internet access to remote schools.",
-    longDesc: "Millions of children lack access to digital education. Rural Education Tech solves this by providing rugged, solar-powered laptops and satellite internet access to remote and underserved schools worldwide. Our program includes technical training for teachers and ongoing support to ensure the equipment provides lasting educational value.",
-    location: "Sub-Saharan Africa & South Asia",
-    organizer: "Tech For Tomorrow",
+    longDesc: "Millions of children in rural India lack access to digital education. This project provides rugged, solar-powered laptops and satellite internet access to underserved schools. Our program includes technical training for teachers to ensure the equipment provides lasting educational value.",
+    location: "Bihar, India",
+    organizer: "Tech For Tomorrow India",
     img: "https://images.unsplash.com/photo-1509062522246-3755977927d7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
   },
   {
     id: 4,
-    title: "Clean Water Initiative",
-    desc: "Building sustainable wells and water purification systems in drought-affected areas.",
-    longDesc: "Access to clean drinking water is a basic human right. The Clean Water Initiative focuses on drilling deep-water wells and installing solar-powered purification systems in regions facing severe water scarcity. Each installation serves up to 500 people, significantly reducing waterborne diseases and empowering local communities by saving countless hours spent fetching water.",
-    location: "Sub-Saharan Africa",
-    organizer: "Water For Life",
-    img: "https://images.unsplash.com/photo-1470075801209-17f9ec0cada6?auto=format&fit=crop&w=800&q=80"
+    title: "Women's Artisan Co-op",
+    desc: "Providing micro-loans to women artisans to start and scale traditional craft businesses.",
+    longDesc: "Empowering rural women by providing them with the capital and training needed to create sustainable businesses producing traditional Indian textiles and crafts. This fund helps them reach broader markets, preserve cultural heritage, and achieve long-term financial independence.",
+    location: "Rajasthan, India",
+    organizer: "Swayam Nari",
+    img: "https://images.unsplash.com/photo-1582200230232-a5d4d3d7b80b?auto=format&fit=crop&w=800&q=80"
   },
   {
     id: 5,
-    title: "Renewable Energy Transition",
-    desc: "Providing off-grid solar kits to low-income households without reliable electricity.",
-    longDesc: "Energy poverty stifles economic growth and education. The Renewable Energy Transition project subsidizes and distributes off-grid solar lighting and charging kits to rural households. By replacing dangerous kerosene lamps, we improve indoor air quality, allow children to study after dark, and reduce fire hazards while fostering a shift toward sustainable energy.",
-    location: "South Asia & Latin America",
-    organizer: "Solar Action Network",
-    img: "https://images.unsplash.com/photo-1497435334941-8c899ee9e8e9?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+    title: "Solar for Rural Healthcare",
+    desc: "Providing off-grid solar panels to power rural health clinics.",
+    longDesc: "Energy poverty severely affects healthcare delivery. This project installs off-grid solar panels in rural clinics across Assam. By replacing unreliable grid power, we ensure life-saving vaccines remain refrigerated, essential medical equipment operates, and doctors can treat patients safely after dark.",
+    location: "Assam, India",
+    organizer: "Solar Health India",
+    img: "https://images.unsplash.com/photo-1508514177221-188b1c77eca2?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
   }
 ];
 

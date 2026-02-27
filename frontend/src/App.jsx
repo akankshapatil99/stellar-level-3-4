@@ -40,7 +40,7 @@ const CAMPAIGNS = [
     longDesc: "Access to clean drinking water is a basic human right. The Clean Water Initiative focuses on drilling deep-water wells and installing solar-powered purification systems in regions facing severe water scarcity. Each installation serves up to 500 people, significantly reducing waterborne diseases and empowering local communities by saving countless hours spent fetching water.",
     location: "Sub-Saharan Africa",
     organizer: "Water For Life",
-    img: "https://images.unsplash.com/photo-1516934824304-cb9aa6f4c784?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+    img: "https://images.unsplash.com/photo-1470075801209-17f9ec0cada6?auto=format&fit=crop&w=800&q=80"
   },
   {
     id: 5,

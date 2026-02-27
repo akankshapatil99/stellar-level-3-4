@@ -10,18 +10,27 @@ const CAMPAIGNS = [
     id: 1,
     title: "Project Ocean Cleanup",
     desc: "Deploying autonomous systems to remove plastics from our oceans globally.",
+    longDesc: "Project Ocean Cleanup aims to deploy advanced, autonomous drone systems into the Great Pacific Garbage Patch and other highly polluted offshore areas to collect macroplastics before they degrade into microplastics. We partner with local maritime agencies to ensure safe and efficient extraction and recycling of the collected materials.",
+    location: "Global Waters (Pacific Focus)",
+    organizer: "Ocean Guardians NGO",
     img: "https://images.unsplash.com/photo-1483683804023-6ccdb62f86ef?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
   },
   {
     id: 2,
     title: "Global Reforestation",
     desc: "Planting native trees to restore critical ecosystems and offset carbon footprint.",
+    longDesc: "Deforestation is a significant contributor to global climate change. Global Reforestation partners with indigenous communities across the Amazon, Congo, and Southeast Asian basins to plant millions of native tree species. Every tree planted is tracked and certified, providing verifiable carbon offset credits and restoring local biodiversity.",
+    location: "South America & Africa",
+    organizer: "Green Earth Coalition",
     img: "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
   },
   {
     id: 3,
     title: "Rural Education Tech",
     desc: "Supplying solar-powered laptops and internet access to remote schools.",
+    longDesc: "Millions of children lack access to digital education. Rural Education Tech solves this by providing rugged, solar-powered laptops and satellite internet access to remote and underserved schools worldwide. Our program includes technical training for teachers and ongoing support to ensure the equipment provides lasting educational value.",
+    location: "Sub-Saharan Africa & South Asia",
+    organizer: "Tech For Tomorrow",
     img: "https://images.unsplash.com/photo-1509062522246-3755977927d7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
   }
 ];
@@ -41,6 +50,7 @@ export default function App() {
   const [recentTxs, setRecentTxs] = useState([]);
   const [searchTerm, setSearchTerm] = useState("");
   const [isLoading, setIsLoading] = useState(true);
+  const [selectedCampaign, setSelectedCampaign] = useState(null);
 
   const GOAL = 5000; // Platform-wide goal
 
@@ -326,7 +336,12 @@ export default function App() {
       <header className="header">
         <div className="title">Nexus</div>
         <div className="header-actions">
-          {address && (
+          <nav className="nav-links">
+            <a href="#how-it-works" className="nav-link">How It Works</a>
+            <a href="#features" className="nav-link">Features</a>
+            <a href="#campaigns" className="nav-link">Campaigns</a>
+          </nav>
+          {address ? (
             <div style={{ display: 'flex', gap: '15px', alignItems: 'center' }}>
               <div className="wallet-info">
                 <div className="wallet-balance">{balance ? `${Number(balance).toFixed(2)} XLM` : '0.00 XLM'}</div>
@@ -339,6 +354,10 @@ export default function App() {
                 Sign Out
               </button>
             </div>
+          ) : (
+            <button className="wallet-btn" onClick={() => setShowWalletModal(true)}>
+              Connect Wallet
+            </button>
           )}
         </div>
       </header>
@@ -377,6 +396,44 @@ export default function App() {
         </section>
       </div>
 
+      <section id="how-it-works" className="how-it-works">
+        <h2 className="section-heading">How Nexus Works</h2>
+        <div className="steps-grid">
+          <div className="step-card">
+            <span className="step-icon">🔗</span>
+            <h3>Connect Wallet</h3>
+            <p>Link your Freighter or Rabet wallet to interact securely with the Soroban network.</p>
+          </div>
+          <div className="step-card">
+            <span className="step-icon">🌍</span>
+            <h3>Choose a Cause</h3>
+            <p>Browse our curated, high-impact campaigns mapped globally to make real change.</p>
+          </div>
+          <div className="step-card">
+            <span className="step-icon">💡</span>
+            <h3>Fund Instantly</h3>
+            <p>Transactions are processed in seconds directly on-chain with 100% transparency.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="features" className="features-section">
+        <h2 className="section-heading">Platform Features</h2>
+        <div className="features-grid">
+          <div className="feature-card">
+            <span className="feature-icon">🛡️</span>
+            <h3>Decentralized & Secure</h3>
+            <p>Smart contracts ensure your funds go exactly where they are supposed to, without middlemen.</p>
+          </div>
+          <div className="feature-card">
+            <span className="feature-icon">📜</span>
+            <h3>Gratitude Certificates</h3>
+            <p>Receive uniquely generated, verifiable certificates for your contributions on the blockchain.</p>
+          </div>
+        </div>
+      </section>
+
+      <h2 id="campaigns" className="section-heading" style={{ marginTop: '80px', marginBottom: '20px' }}>Explore Campaigns</h2>
       <div className="search-section" style={{ padding: '0 2rem 2rem 2rem', textAlign: 'center' }}>
         <input
           type="text"
@@ -396,6 +453,12 @@ export default function App() {
             <div className="campaign-content">
               <h3 className="campaign-title">{camp.title}</h3>
               <p className="campaign-desc">{camp.desc}</p>
+              <button
+                className="learn-more-btn"
+                onClick={() => setSelectedCampaign(camp)}
+              >
+                Learn More →
+              </button>
 
               <div className="campaign-footer">
                 <div className="campaign-stats">
@@ -532,6 +595,95 @@ export default function App() {
               ))}
             </div>
           </section>
+        )
+      }
+
+      <footer className="footer">
+        <div className="footer-brand">
+          <h2>Nexus Crowdfunding</h2>
+          <p>The leading decentralized platform powering global change via the Stellar Soroban network. Impact, verified.</p>
+        </div>
+        <div className="footer-links">
+          <div className="footer-col">
+            <h4>Platform</h4>
+            <ul>
+              <li><a href="#campaigns">Explore</a></li>
+              <li><a href="#how-it-works">How it Works</a></li>
+              <li><a href="#features">Features</a></li>
+            </ul>
+          </div>
+          <div className="footer-col">
+            <h4>Connect</h4>
+            <ul>
+              <li><a href="#">Twitter</a></li>
+              <li><a href="#">Discord</a></li>
+              <li><a href="#">GitHub</a></li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+      {
+        selectedCampaign && (
+          <div className="cert-overlay" onClick={() => setSelectedCampaign(null)}>
+            <div className="cert-modal campaign-detail-modal" onClick={e => e.stopPropagation()}>
+              <div className="modal-header-image" style={{ backgroundImage: `url(${selectedCampaign.img})` }}>
+                <button className="close-modal-icon" onClick={() => setSelectedCampaign(null)}>✕</button>
+              </div>
+              <div className="modal-content-body" style={{ padding: '30px' }}>
+                <h2 className="modal-campaign-title">{selectedCampaign.title}</h2>
+                <div className="modal-campaign-meta" style={{ display: 'flex', gap: '15px', margin: '10px 0', fontSize: '0.9rem', color: '#94a3b8' }}>
+                  <span className="meta-tag">📍 {selectedCampaign.location}</span>
+                  <span className="meta-tag">👥 By {selectedCampaign.organizer}</span>
+                </div>
+
+                <div className="modal-campaign-stats" style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '15px', margin: '20px 0', background: 'rgba(255,255,255,0.02)', padding: '15px', borderRadius: '15px', border: '1px solid rgba(255,255,255,0.05)' }}>
+                  <div className="stat-box">
+                    <span className="stat-box-label" style={{ display: 'block', fontSize: '0.8rem', color: '#94a3b8', textTransform: 'uppercase' }}>Raised</span>
+                    <span className="stat-box-value" style={{ display: 'block', fontSize: '1.2rem', fontWeight: 'bold', color: 'var(--accent)' }}>{campaignTotals[selectedCampaign.id] || 0} XLM</span>
+                  </div>
+                  <div className="stat-box">
+                    <span className="stat-box-label" style={{ display: 'block', fontSize: '0.8rem', color: '#94a3b8', textTransform: 'uppercase' }}>Target</span>
+                    <span className="stat-box-value" style={{ display: 'block', fontSize: '1.2rem', fontWeight: 'bold', color: 'var(--white)' }}>~{Math.floor(GOAL / 3)} XLM</span>
+                  </div>
+                  <div className="stat-box">
+                    <span className="stat-box-label" style={{ display: 'block', fontSize: '0.8rem', color: '#94a3b8', textTransform: 'uppercase' }}>Progress</span>
+                    <span className="stat-box-value" style={{ display: 'block', fontSize: '1.2rem', fontWeight: 'bold', color: 'var(--accent-secondary)' }}>{Math.floor(((campaignTotals[selectedCampaign.id] || 0) / (GOAL / 3)) * 100)}%</span>
+                  </div>
+                </div>
+
+                <div className="modal-campaign-about" style={{ marginBottom: '25px' }}>
+                  <h3 style={{ marginBottom: '10px', fontSize: '1.2rem' }}>About the Campaign</h3>
+                  <p style={{ color: '#94a3b8', lineHeight: '1.6' }}>{selectedCampaign.longDesc}</p>
+                </div>
+
+                <div className="modal-donate-box" style={{ borderTop: '1px solid rgba(255,255,255,0.05)', paddingTop: '20px' }}>
+                  <h4 style={{ marginBottom: '15px' }}>Quick Contribute</h4>
+                  <div className="donate-section">
+                    <div className="input-group">
+                      <input
+                        type="number"
+                        placeholder="0.00"
+                        className="amount-input"
+                        value={amounts[selectedCampaign.id] || ""}
+                        onChange={(e) => handleAmountChange(selectedCampaign.id, e.target.value)}
+                      />
+                      <span className="input-suffix">XLM</span>
+                    </div>
+                    <button
+                      className="donate-btn"
+                      onClick={() => {
+                        donateToCampaign(selectedCampaign.id);
+                        setSelectedCampaign(null);
+                      }}
+                      disabled={status.startsWith("Pending")}
+                    >
+                      Contribute
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         )
       }
     </div >

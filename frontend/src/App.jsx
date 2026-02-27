@@ -40,6 +40,7 @@ export default function App() {
   const [balance, setBalance] = useState(null);
   const [recentTxs, setRecentTxs] = useState([]);
   const [searchTerm, setSearchTerm] = useState("");
+  const [isLoading, setIsLoading] = useState(true);
 
   const GOAL = 5000; // Platform-wide goal
 
@@ -68,6 +69,20 @@ export default function App() {
 
   // Real-time data polling
   useEffect(() => {
+    // Load from cache initially
+    const cachedPlatformTotal = localStorage.getItem("platformTotal");
+    const cachedCampaignTotals = localStorage.getItem("campaignTotals");
+
+    if (cachedPlatformTotal) {
+      setPlatformTotal(Number(cachedPlatformTotal));
+      setDisplayTotal(Number(cachedPlatformTotal));
+    }
+    if (cachedCampaignTotals) {
+      try {
+        setCampaignTotals(JSON.parse(cachedCampaignTotals));
+      } catch (e) { }
+    }
+
     fetchTotal();
     const interval = setInterval(fetchTotal, 10000);
     return () => clearInterval(interval);
@@ -244,7 +259,9 @@ export default function App() {
         .build();
       const platSim = await server.simulateTransaction(platTx);
       if (platSim.result?.retval) {
-        setPlatformTotal(Number(scValToNative(platSim.result.retval)));
+        const newPlatformTotal = Number(scValToNative(platSim.result.retval));
+        setPlatformTotal(newPlatformTotal);
+        localStorage.setItem("platformTotal", newPlatformTotal.toString());
       }
 
       // Fetch individual campaign totals
@@ -260,8 +277,13 @@ export default function App() {
         }
       }
       setCampaignTotals(newTotals);
+
+      // Update cache
+      localStorage.setItem("campaignTotals", JSON.stringify(newTotals));
     } catch (e) {
       console.error("fetchTotal error:", e);
+    } finally {
+      setIsLoading(false);
     }
   };
 
@@ -340,7 +362,10 @@ export default function App() {
 
         <section className="global-stats">
           <div className="stats-card">
-            <h2>Total Impact Raised <span>{displayTotal} XLM</span></h2>
+            <h2>Total Impact Raised
+              {isLoading && <span className="loading-spinner"></span>}
+              {!isLoading && <span>{displayTotal} XLM</span>}
+            </h2>
             <div className="progress-bar-container">
               <div
                 className="progress-bar-fill"

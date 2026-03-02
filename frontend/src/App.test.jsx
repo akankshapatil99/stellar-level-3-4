@@ -43,17 +43,17 @@ describe('App Component', () => {
 
     it('renders campaign cards', () => {
         render(<App />);
-        expect(screen.getByText('Project Ocean Cleanup')).toBeInTheDocument();
-        expect(screen.getByText('Global Reforestation')).toBeInTheDocument();
+        expect(screen.getByText('Ganges River Cleanup')).toBeInTheDocument();
+        expect(screen.getByText('Himalayan Reforestation')).toBeInTheDocument();
         expect(screen.getByText('Rural Education Tech')).toBeInTheDocument();
     });
 
     it('filters campaigns on search', async () => {
         render(<App />);
         const searchInput = screen.getByPlaceholderText(/Search for causes/i);
-        fireEvent.change(searchInput, { target: { value: 'Ocean' } });
+        fireEvent.change(searchInput, { target: { value: 'Ganges' } });
 
-        expect(screen.getByText('Project Ocean Cleanup')).toBeInTheDocument();
-        expect(screen.queryByText('Global Reforestation')).not.toBeInTheDocument();
+        expect(screen.getByText('Ganges River Cleanup')).toBeInTheDocument();
+        expect(screen.queryByText('Himalayan Reforestation')).not.toBeInTheDocument();
     });
 });

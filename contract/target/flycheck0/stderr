@@ -1,0 +1,2335 @@
+   0.169824700s  INFO prepare_target{force=false package_id=crowdfunding v0.1.0 (C:\Users\akank\Downloads\stellar crowdfunding level 2\contract) target="crowdfunding"}: cargo::core::compiler::fingerprint: fingerprint error for crowdfunding v0.1.0 (C:\Users\akank\Downloads\stellar crowdfunding level 2\contract)/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("crowdfunding", ["cdylib"], "C:\\Users\\akank\\Downloads\\stellar crowdfunding level 2\\contract\\src\\lib.rs", Edition2021) }
+   0.170488400s  INFO prepare_target{force=false package_id=crowdfunding v0.1.0 (C:\Users\akank\Downloads\stellar crowdfunding level 2\contract) target="crowdfunding"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\akank\Downloads\stellar crowdfunding level 2\contract\target\debug\.fingerprint\crowdfunding-12e2838fcbffe8ec\lib-crowdfunding`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_libgit2_prerelease
+  12: <unknown>
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+   0.187915200s  INFO prepare_target{force=false package_id=soroban-sdk v20.5.0 target="soroban_sdk"}: cargo::core::compiler::fingerprint: fingerprint error for soroban-sdk v20.5.0/Check { test: false }/TargetInner { name_inferred: true, doctest: false, ..: lib_target("soroban_sdk", ["lib"], "C:\\Users\\akank\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\soroban-sdk-20.5.0\\src\\lib.rs", Edition2021) }
+   0.187947300s  INFO prepare_target{force=false package_id=soroban-sdk v20.5.0 target="soroban_sdk"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\akank\Downloads\stellar crowdfunding level 2\contract\target\debug\.fingerprint\soroban-sdk-82a6e3acd0143b3a\lib-soroban_sdk`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_libgit2_prerelease
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: <unknown>
+  17: git_midx_writer_dump
+  18: git_filter_source_repo
+  19: git_midx_writer_dump
+  20: BaseThreadInitThunk
+  21: RtlUserThreadStart
+   0.193942100s  INFO prepare_target{force=false package_id=rand v0.8.5 target="rand"}: cargo::core::compiler::fingerprint: fingerprint error for rand v0.8.5/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("rand", ["lib"], "C:\\Users\\akank\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\rand-0.8.5\\src\\lib.rs", Edition2018) }
+   0.193992500s  INFO prepare_target{force=false package_id=rand v0.8.5 target="rand"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\akank\Downloads\stellar crowdfunding level 2\contract\target\debug\.fingerprint\rand-3481444c59627318\lib-rand`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_libgit2_prerelease
+  14: <unknown>
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: git_midx_writer_dump
+  19: git_filter_source_repo
+  20: git_midx_writer_dump
+  21: BaseThreadInitThunk
+  22: RtlUserThreadStart
+   0.194834600s  INFO prepare_target{force=false package_id=rand_chacha v0.3.1 target="rand_chacha"}: cargo::core::compiler::fingerprint: fingerprint error for rand_chacha v0.3.1/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("rand_chacha", ["lib"], "C:\\Users\\akank\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\rand_chacha-0.3.1\\src\\lib.rs", Edition2018) }
+   0.194867100s  INFO prepare_target{force=false package_id=rand_chacha v0.3.1 target="rand_chacha"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\akank\Downloads\stellar crowdfunding level 2\contract\target\debug\.fingerprint\rand_chacha-ed6205d8f20744bd\lib-rand_chacha`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_libgit2_prerelease
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   0.195460300s  INFO prepare_target{force=false package_id=ppv-lite86 v0.2.20 target="ppv_lite86"}: cargo::core::compiler::fingerprint: fingerprint error for ppv-lite86 v0.2.20/Check { test: false }/TargetInner { ..: lib_target("ppv_lite86", ["lib"], "C:\\Users\\akank\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\ppv-lite86-0.2.20\\src\\lib.rs", Edition2021) }
+   0.195484600s  INFO prepare_target{force=false package_id=ppv-lite86 v0.2.20 target="ppv_lite86"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\akank\Downloads\stellar crowdfunding level 2\contract\target\debug\.fingerprint\ppv-lite86-e811f010a8051c45\lib-ppv_lite86`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_libgit2_prerelease
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   0.195973400s  INFO prepare_target{force=false package_id=zerocopy v0.7.35 target="zerocopy"}: cargo::core::compiler::fingerprint: fingerprint error for zerocopy v0.7.35/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("zerocopy", ["lib"], "C:\\Users\\akank\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zerocopy-0.7.35\\src\\lib.rs", Edition2018) }
+   0.195991600s  INFO prepare_target{force=false package_id=zerocopy v0.7.35 target="zerocopy"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\akank\Downloads\stellar crowdfunding level 2\contract\target\debug\.fingerprint\zerocopy-c2158f165da4904f\lib-zerocopy`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_libgit2_prerelease
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+   0.196402100s  INFO prepare_target{force=false package_id=byteorder v1.5.0 target="byteorder"}: cargo::core::compiler::fingerprint: fingerprint error for byteorder v1.5.0/Check { test: false }/TargetInner { benched: false, ..: lib_target("byteorder", ["lib"], "C:\\Users\\akank\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\byteorder-1.5.0\\src\\lib.rs", Edition2021) }
+   0.196419300s  INFO prepare_target{force=false package_id=byteorder v1.5.0 target="byteorder"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\akank\Downloads\stellar crowdfunding level 2\contract\target\debug\.fingerprint\byteorder-539316da88ddb83c\lib-byteorder`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_libgit2_prerelease
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: <unknown>
+  22: git_midx_writer_dump
+  23: git_filter_source_repo
+  24: git_midx_writer_dump
+  25: BaseThreadInitThunk
+  26: RtlUserThreadStart
+   0.197022700s  INFO prepare_target{force=false package_id=rand_core v0.6.4 target="rand_core"}: cargo::core::compiler::fingerprint: fingerprint error for rand_core v0.6.4/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("rand_core", ["lib"], "C:\\Users\\akank\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\rand_core-0.6.4\\src\\lib.rs", Edition2018) }
+   0.197047100s  INFO prepare_target{force=false package_id=rand_core v0.6.4 target="rand_core"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\akank\Downloads\stellar crowdfunding level 2\contract\target\debug\.fingerprint\rand_core-9d4210dff85cc464\lib-rand_core`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_libgit2_prerelease
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   0.197522100s  INFO prepare_target{force=false package_id=getrandom v0.2.11 target="getrandom"}: cargo::core::compiler::fingerprint: fingerprint error for getrandom v0.2.11/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("getrandom", ["lib"], "C:\\Users\\akank\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\getrandom-0.2.11\\src\\lib.rs", Edition2018) }
+   0.197541800s  INFO prepare_target{force=false package_id=getrandom v0.2.11 target="getrandom"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\akank\Downloads\stellar crowdfunding level 2\contract\target\debug\.fingerprint\getrandom-d61f5d081d795e14\lib-getrandom`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_libgit2_prerelease
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+   0.198383800s  INFO prepare_target{force=false package_id=cfg-if v1.0.4 target="cfg_if"}: cargo::core::compiler::fingerprint: fingerprint error for cfg-if v1.0.4/Check { test: false }/TargetInner { ..: lib_target("cfg_if", ["lib"], "C:\\Users\\akank\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\cfg-if-1.0.4\\src\\lib.rs", Edition2018) }
+   0.198423600s  INFO prepare_target{force=false package_id=cfg-if v1.0.4 target="cfg_if"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\akank\Downloads\stellar crowdfunding level 2\contract\target\debug\.fingerprint\cfg-if-f35af99d81ed8f2e\lib-cfg_if`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_libgit2_prerelease
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: <unknown>
+  22: git_midx_writer_dump
+  23: git_filter_source_repo
+  24: git_midx_writer_dump
+  25: BaseThreadInitThunk
+  26: RtlUserThreadStart
+   0.199157100s  INFO prepare_target{force=false package_id=serde v1.0.192 target="serde"}: cargo::core::compiler::fingerprint: fingerprint error for serde v1.0.192/Check { test: false }/TargetInner { name_inferred: true, doc_scrape_examples: Disabled, ..: lib_target("serde", ["lib"], "C:\\Users\\akank\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\serde-1.0.192\\src\\lib.rs", Edition2018) }
+   0.199206900s  INFO prepare_target{force=false package_id=serde v1.0.192 target="serde"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\akank\Downloads\stellar crowdfunding level 2\contract\target\debug\.fingerprint\serde-3f5ed9d6b34ba278\lib-serde`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_libgit2_prerelease
+  14: <unknown>
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: git_midx_writer_dump
+  19: git_filter_source_repo
+  20: git_midx_writer_dump
+  21: BaseThreadInitThunk
+  22: RtlUserThreadStart
+   0.201426000s  INFO prepare_target{force=false package_id=serde_json v1.0.108 target="serde_json"}: cargo::core::compiler::fingerprint: fingerprint error for serde_json v1.0.108/Check { test: false }/TargetInner { name_inferred: true, doc_scrape_examples: Disabled, ..: lib_target("serde_json", ["lib"], "C:\\Users\\akank\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\serde_json-1.0.108\\src\\lib.rs", Edition2021) }
+   0.201479900s  INFO prepare_target{force=false package_id=serde_json v1.0.108 target="serde_json"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\akank\Downloads\stellar crowdfunding level 2\contract\target\debug\.fingerprint\serde_json-266933d96402a86e\lib-serde_json`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_libgit2_prerelease
+  14: <unknown>
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: git_midx_writer_dump
+  19: git_filter_source_repo
+  20: git_midx_writer_dump
+  21: BaseThreadInitThunk
+  22: RtlUserThreadStart
+   0.202334000s  INFO prepare_target{force=false package_id=itoa v1.0.17 target="itoa"}: cargo::core::compiler::fingerprint: fingerprint error for itoa v1.0.17/Check { test: false }/TargetInner { ..: lib_target("itoa", ["lib"], "C:\\Users\\akank\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\itoa-1.0.17\\src\\lib.rs", Edition2021) }
+   0.202357900s  INFO prepare_target{force=false package_id=itoa v1.0.17 target="itoa"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\akank\Downloads\stellar crowdfunding level 2\contract\target\debug\.fingerprint\itoa-02921e8292b230a8\lib-itoa`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_libgit2_prerelease
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   0.203220600s  INFO prepare_target{force=false package_id=ryu v1.0.23 target="ryu"}: cargo::core::compiler::fingerprint: fingerprint error for ryu v1.0.23/Check { test: false }/TargetInner { ..: lib_target("ryu", ["lib"], "C:\\Users\\akank\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\ryu-1.0.23\\src\\lib.rs", Edition2021) }
+   0.203246700s  INFO prepare_target{force=false package_id=ryu v1.0.23 target="ryu"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\akank\Downloads\stellar crowdfunding level 2\contract\target\debug\.fingerprint\ryu-85e07e180e63babd\lib-ryu`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_libgit2_prerelease
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   0.204727800s  INFO prepare_target{force=false package_id=soroban-env-host v20.3.0 target="soroban_env_host"}: cargo::core::compiler::fingerprint: fingerprint error for soroban-env-host v20.3.0/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("soroban_env_host", ["lib"], "C:\\Users\\akank\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\soroban-env-host-20.3.0\\src\\lib.rs", Edition2021) }
+   0.204751100s  INFO prepare_target{force=false package_id=soroban-env-host v20.3.0 target="soroban_env_host"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\akank\Downloads\stellar crowdfunding level 2\contract\target\debug\.fingerprint\soroban-env-host-760efca763c4d468\lib-soroban_env_host`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_libgit2_prerelease
+  14: <unknown>
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: git_midx_writer_dump
+  19: git_filter_source_repo
+  20: git_midx_writer_dump
+  21: BaseThreadInitThunk
+  22: RtlUserThreadStart
+   0.205791500s  INFO prepare_target{force=false package_id=curve25519-dalek v4.1.2 target="curve25519_dalek"}: cargo::core::compiler::fingerprint: fingerprint error for curve25519-dalek v4.1.2/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("curve25519_dalek", ["lib"], "C:\\Users\\akank\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\curve25519-dalek-4.1.2\\src\\lib.rs", Edition2021) }
+   0.205810900s  INFO prepare_target{force=false package_id=curve25519-dalek v4.1.2 target="curve25519_dalek"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\akank\Downloads\stellar crowdfunding level 2\contract\target\debug\.fingerprint\curve25519-dalek-2ed27f987ac51719\lib-curve25519_dalek`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_libgit2_prerelease
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   0.206734200s  INFO prepare_target{force=false package_id=cpufeatures v0.2.17 target="cpufeatures"}: cargo::core::compiler::fingerprint: fingerprint error for cpufeatures v0.2.17/Check { test: false }/TargetInner { ..: lib_target("cpufeatures", ["lib"], "C:\\Users\\akank\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\cpufeatures-0.2.17\\src\\lib.rs", Edition2018) }
+   0.206913100s  INFO prepare_target{force=false package_id=cpufeatures v0.2.17 target="cpufeatures"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\akank\Downloads\stellar crowdfunding level 2\contract\target\debug\.fingerprint\cpufeatures-2d7d7e4bba255175\lib-cpufeatures`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_libgit2_prerelease
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   0.209007100s  INFO prepare_target{force=false package_id=digest v0.10.7 target="digest"}: cargo::core::compiler::fingerprint: fingerprint error for digest v0.10.7/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("digest", ["lib"], "C:\\Users\\akank\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\digest-0.10.7\\src\\lib.rs", Edition2018) }
+   0.209034000s  INFO prepare_target{force=false package_id=digest v0.10.7 target="digest"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\akank\Downloads\stellar crowdfunding level 2\contract\target\debug\.fingerprint\digest-70a83a1372528092\lib-digest`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_libgit2_prerelease
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   0.209544900s  INFO prepare_target{force=false package_id=block-buffer v0.10.4 target="block_buffer"}: cargo::core::compiler::fingerprint: fingerprint error for block-buffer v0.10.4/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("block_buffer", ["lib"], "C:\\Users\\akank\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\block-buffer-0.10.4\\src\\lib.rs", Edition2018) }
+   0.209563900s  INFO prepare_target{force=false package_id=block-buffer v0.10.4 target="block_buffer"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\akank\Downloads\stellar crowdfunding level 2\contract\target\debug\.fingerprint\block-buffer-adb7c4a4c3e04e86\lib-block_buffer`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_libgit2_prerelease
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+   0.209933000s  INFO prepare_target{force=false package_id=generic-array v0.14.9 target="generic_array"}: cargo::core::compiler::fingerprint: fingerprint error for generic-array v0.14.9/Check { test: false }/TargetInner { ..: lib_target("generic_array", ["lib"], "C:\\Users\\akank\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\generic-array-0.14.9\\src\\lib.rs", Edition2015) }
+   0.209947000s  INFO prepare_target{force=false package_id=generic-array v0.14.9 target="generic_array"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\akank\Downloads\stellar crowdfunding level 2\contract\target\debug\.fingerprint\generic-array-44b2e23161352710\lib-generic_array`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_libgit2_prerelease
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: <unknown>
+  22: git_midx_writer_dump
+  23: git_filter_source_repo
+  24: git_midx_writer_dump
+  25: BaseThreadInitThunk
+  26: RtlUserThreadStart
+   0.211205400s  INFO prepare_target{force=false package_id=typenum v1.19.0 target="typenum"}: cargo::core::compiler::fingerprint: fingerprint error for typenum v1.19.0/Check { test: false }/TargetInner { ..: lib_target("typenum", ["lib"], "C:\\Users\\akank\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\typenum-1.19.0\\src\\lib.rs", Edition2018) }
+   0.211225500s  INFO prepare_target{force=false package_id=typenum v1.19.0 target="typenum"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\akank\Downloads\stellar crowdfunding level 2\contract\target\debug\.fingerprint\typenum-732572f2b7e4c287\lib-typenum`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_libgit2_prerelease
+  19: <unknown>
+  20: <unknown>
+  21: <unknown>
+  22: <unknown>
+  23: git_midx_writer_dump
+  24: git_filter_source_repo
+  25: git_midx_writer_dump
+  26: BaseThreadInitThunk
+  27: RtlUserThreadStart
+   0.212255600s  INFO prepare_target{force=false package_id=zeroize v1.8.2 target="zeroize"}: cargo::core::compiler::fingerprint: fingerprint error for zeroize v1.8.2/Check { test: false }/TargetInner { ..: lib_target("zeroize", ["lib"], "C:\\Users\\akank\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeroize-1.8.2\\src\\lib.rs", Edition2021) }
+   0.212275600s  INFO prepare_target{force=false package_id=zeroize v1.8.2 target="zeroize"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\akank\Downloads\stellar crowdfunding level 2\contract\target\debug\.fingerprint\zeroize-c91552597f145589\lib-zeroize`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_libgit2_prerelease
+  19: <unknown>
+  20: <unknown>
+  21: <unknown>
+  22: <unknown>
+  23: git_midx_writer_dump
+  24: git_filter_source_repo
+  25: git_midx_writer_dump
+  26: BaseThreadInitThunk
+  27: RtlUserThreadStart
+   0.212652500s  INFO prepare_target{force=false package_id=const-oid v0.9.6 target="const_oid"}: cargo::core::compiler::fingerprint: fingerprint error for const-oid v0.9.6/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("const_oid", ["lib"], "C:\\Users\\akank\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\const-oid-0.9.6\\src\\lib.rs", Edition2021) }
+   0.212667000s  INFO prepare_target{force=false package_id=const-oid v0.9.6 target="const_oid"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\akank\Downloads\stellar crowdfunding level 2\contract\target\debug\.fingerprint\const-oid-cb298ab0dd594d0f\lib-const_oid`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_libgit2_prerelease
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+   0.213031500s  INFO prepare_target{force=false package_id=crypto-common v0.1.6 target="crypto_common"}: cargo::core::compiler::fingerprint: fingerprint error for crypto-common v0.1.6/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("crypto_common", ["lib"], "C:\\Users\\akank\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\crypto-common-0.1.6\\src\\lib.rs", Edition2018) }
+   0.213165000s  INFO prepare_target{force=false package_id=crypto-common v0.1.6 target="crypto_common"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\akank\Downloads\stellar crowdfunding level 2\contract\target\debug\.fingerprint\crypto-common-e4863c1457372b4a\lib-crypto_common`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_libgit2_prerelease
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+   0.214245500s  INFO prepare_target{force=false package_id=subtle v2.6.1 target="subtle"}: cargo::core::compiler::fingerprint: fingerprint error for subtle v2.6.1/Check { test: false }/TargetInner { ..: lib_target("subtle", ["lib"], "C:\\Users\\akank\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\subtle-2.6.1\\src\\lib.rs", Edition2018) }
+   0.214281000s  INFO prepare_target{force=false package_id=subtle v2.6.1 target="subtle"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\akank\Downloads\stellar crowdfunding level 2\contract\target\debug\.fingerprint\subtle-46ba89f0d001aafb\lib-subtle`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_libgit2_prerelease
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+   0.214907000s  INFO prepare_target{force=false package_id=ed25519-dalek v2.0.0 target="ed25519_dalek"}: cargo::core::compiler::fingerprint: fingerprint error for ed25519-dalek v2.0.0/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("ed25519_dalek", ["lib"], "C:\\Users\\akank\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\ed25519-dalek-2.0.0\\src\\lib.rs", Edition2021) }
+   0.214928500s  INFO prepare_target{force=false package_id=ed25519-dalek v2.0.0 target="ed25519_dalek"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\akank\Downloads\stellar crowdfunding level 2\contract\target\debug\.fingerprint\ed25519-dalek-f4ecc5e3d48520c1\lib-ed25519_dalek`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_libgit2_prerelease
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   0.215843900s  INFO prepare_target{force=false package_id=ed25519 v2.2.3 target="ed25519"}: cargo::core::compiler::fingerprint: fingerprint error for ed25519 v2.2.3/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("ed25519", ["lib"], "C:\\Users\\akank\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\ed25519-2.2.3\\src\\lib.rs", Edition2021) }
+   0.215863000s  INFO prepare_target{force=false package_id=ed25519 v2.2.3 target="ed25519"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\akank\Downloads\stellar crowdfunding level 2\contract\target\debug\.fingerprint\ed25519-bff64e9a222c2949\lib-ed25519`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_libgit2_prerelease
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   0.216626100s  INFO prepare_target{force=false package_id=signature v2.2.0 target="signature"}: cargo::core::compiler::fingerprint: fingerprint error for signature v2.2.0/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("signature", ["lib"], "C:\\Users\\akank\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\signature-2.2.0\\src\\lib.rs", Edition2021) }
+   0.216653700s  INFO prepare_target{force=false package_id=signature v2.2.0 target="signature"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\akank\Downloads\stellar crowdfunding level 2\contract\target\debug\.fingerprint\signature-767d46208884c2a6\lib-signature`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_libgit2_prerelease
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+   0.217144100s  INFO prepare_target{force=false package_id=sha2 v0.10.8 target="sha2"}: cargo::core::compiler::fingerprint: fingerprint error for sha2 v0.10.8/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("sha2", ["lib"], "C:\\Users\\akank\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\sha2-0.10.8\\src\\lib.rs", Edition2018) }
+   0.217166400s  INFO prepare_target{force=false package_id=sha2 v0.10.8 target="sha2"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\akank\Downloads\stellar crowdfunding level 2\contract\target\debug\.fingerprint\sha2-4934e96d444cf749\lib-sha2`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_libgit2_prerelease
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   0.217928400s  INFO prepare_target{force=false package_id=hex-literal v0.4.1 target="hex_literal"}: cargo::core::compiler::fingerprint: fingerprint error for hex-literal v0.4.1/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("hex_literal", ["lib"], "C:\\Users\\akank\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\hex-literal-0.4.1\\src\\lib.rs", Edition2021) }
+   0.217948800s  INFO prepare_target{force=false package_id=hex-literal v0.4.1 target="hex_literal"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\akank\Downloads\stellar crowdfunding level 2\contract\target\debug\.fingerprint\hex-literal-939db646b004180d\lib-hex_literal`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_libgit2_prerelease
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   0.218627600s  INFO prepare_target{force=false package_id=hmac v0.12.1 target="hmac"}: cargo::core::compiler::fingerprint: fingerprint error for hmac v0.12.1/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("hmac", ["lib"], "C:\\Users\\akank\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\hmac-0.12.1\\src\\lib.rs", Edition2018) }
+   0.218648000s  INFO prepare_target{force=false package_id=hmac v0.12.1 target="hmac"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\akank\Downloads\stellar crowdfunding level 2\contract\target\debug\.fingerprint\hmac-c587da3d92a3aa84\lib-hmac`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_libgit2_prerelease
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   0.219325600s  INFO prepare_target{force=false package_id=k256 v0.13.1 target="k256"}: cargo::core::compiler::fingerprint: fingerprint error for k256 v0.13.1/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("k256", ["lib"], "C:\\Users\\akank\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\k256-0.13.1\\src\\lib.rs", Edition2021) }
+   0.219345900s  INFO prepare_target{force=false package_id=k256 v0.13.1 target="k256"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\akank\Downloads\stellar crowdfunding level 2\contract\target\debug\.fingerprint\k256-13dae24f3ac4ec04\lib-k256`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_libgit2_prerelease
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   0.219914400s  INFO prepare_target{force=false package_id=ecdsa v0.16.9 target="ecdsa"}: cargo::core::compiler::fingerprint: fingerprint error for ecdsa v0.16.9/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("ecdsa", ["lib"], "C:\\Users\\akank\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\ecdsa-0.16.9\\src\\lib.rs", Edition2021) }
+   0.219929600s  INFO prepare_target{force=false package_id=ecdsa v0.16.9 target="ecdsa"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\akank\Downloads\stellar crowdfunding level 2\contract\target\debug\.fingerprint\ecdsa-1aa83137b94b30c1\lib-ecdsa`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_libgit2_prerelease
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   0.220729000s  INFO prepare_target{force=false package_id=der v0.7.10 target="der"}: cargo::core::compiler::fingerprint: fingerprint error for der v0.7.10/Check { test: false }/TargetInner { ..: lib_target("der", ["lib"], "C:\\Users\\akank\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\der-0.7.10\\src\\lib.rs", Edition2021) }
+   0.220757300s  INFO prepare_target{force=false package_id=der v0.7.10 target="der"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\akank\Downloads\stellar crowdfunding level 2\contract\target\debug\.fingerprint\der-9b27ecbed57713a1\lib-der`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_libgit2_prerelease
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+   0.222036500s  INFO prepare_target{force=false package_id=elliptic-curve v0.13.8 target="elliptic_curve"}: cargo::core::compiler::fingerprint: fingerprint error for elliptic-curve v0.13.8/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("elliptic_curve", ["lib"], "C:\\Users\\akank\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\elliptic-curve-0.13.8\\src\\lib.rs", Edition2021) }
+   0.222076400s  INFO prepare_target{force=false package_id=elliptic-curve v0.13.8 target="elliptic_curve"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\akank\Downloads\stellar crowdfunding level 2\contract\target\debug\.fingerprint\elliptic-curve-08649dcb43ee67d1\lib-elliptic_curve`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_libgit2_prerelease
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+   0.222998000s  INFO prepare_target{force=false package_id=base16ct v0.2.0 target="base16ct"}: cargo::core::compiler::fingerprint: fingerprint error for base16ct v0.2.0/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("base16ct", ["lib"], "C:\\Users\\akank\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\base16ct-0.2.0\\src\\lib.rs", Edition2021) }
+   0.223030500s  INFO prepare_target{force=false package_id=base16ct v0.2.0 target="base16ct"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\akank\Downloads\stellar crowdfunding level 2\contract\target\debug\.fingerprint\base16ct-135678e1e5734c32\lib-base16ct`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_libgit2_prerelease
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: <unknown>
+  22: git_midx_writer_dump
+  23: git_filter_source_repo
+  24: git_midx_writer_dump
+  25: BaseThreadInitThunk
+  26: RtlUserThreadStart
+   0.223793000s  INFO prepare_target{force=false package_id=crypto-bigint v0.5.5 target="crypto_bigint"}: cargo::core::compiler::fingerprint: fingerprint error for crypto-bigint v0.5.5/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("crypto_bigint", ["lib"], "C:\\Users\\akank\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\crypto-bigint-0.5.5\\src\\lib.rs", Edition2021) }
+   0.223823900s  INFO prepare_target{force=false package_id=crypto-bigint v0.5.5 target="crypto_bigint"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\akank\Downloads\stellar crowdfunding level 2\contract\target\debug\.fingerprint\crypto-bigint-07da036382071d81\lib-crypto_bigint`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_libgit2_prerelease
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: <unknown>
+  22: git_midx_writer_dump
+  23: git_filter_source_repo
+  24: git_midx_writer_dump
+  25: BaseThreadInitThunk
+  26: RtlUserThreadStart
+   0.224549500s  INFO prepare_target{force=false package_id=ff v0.13.1 target="ff"}: cargo::core::compiler::fingerprint: fingerprint error for ff v0.13.1/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("ff", ["lib"], "C:\\Users\\akank\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\ff-0.13.1\\src\\lib.rs", Edition2021) }
+   0.224576400s  INFO prepare_target{force=false package_id=ff v0.13.1 target="ff"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\akank\Downloads\stellar crowdfunding level 2\contract\target\debug\.fingerprint\ff-8858b66dddecc84f\lib-ff`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_libgit2_prerelease
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: <unknown>
+  22: git_midx_writer_dump
+  23: git_filter_source_repo
+  24: git_midx_writer_dump
+  25: BaseThreadInitThunk
+  26: RtlUserThreadStart
+   0.225452000s  INFO prepare_target{force=false package_id=group v0.13.0 target="group"}: cargo::core::compiler::fingerprint: fingerprint error for group v0.13.0/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("group", ["lib"], "C:\\Users\\akank\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\group-0.13.0\\src\\lib.rs", Edition2021) }
+   0.225479800s  INFO prepare_target{force=false package_id=group v0.13.0 target="group"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\akank\Downloads\stellar crowdfunding level 2\contract\target\debug\.fingerprint\group-c820f64f51644d46\lib-group`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_libgit2_prerelease
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: <unknown>
+  22: git_midx_writer_dump
+  23: git_filter_source_repo
+  24: git_midx_writer_dump
+  25: BaseThreadInitThunk
+  26: RtlUserThreadStart
+   0.226175500s  INFO prepare_target{force=false package_id=pkcs8 v0.10.2 target="pkcs8"}: cargo::core::compiler::fingerprint: fingerprint error for pkcs8 v0.10.2/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("pkcs8", ["lib"], "C:\\Users\\akank\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\pkcs8-0.10.2\\src\\lib.rs", Edition2021) }
+   0.226194900s  INFO prepare_target{force=false package_id=pkcs8 v0.10.2 target="pkcs8"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\akank\Downloads\stellar crowdfunding level 2\contract\target\debug\.fingerprint\pkcs8-e356d579858556f4\lib-pkcs8`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_libgit2_prerelease
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: <unknown>
+  22: git_midx_writer_dump
+  23: git_filter_source_repo
+  24: git_midx_writer_dump
+  25: BaseThreadInitThunk
+  26: RtlUserThreadStart
+   0.226666700s  INFO prepare_target{force=false package_id=spki v0.7.3 target="spki"}: cargo::core::compiler::fingerprint: fingerprint error for spki v0.7.3/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("spki", ["lib"], "C:\\Users\\akank\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\spki-0.7.3\\src\\lib.rs", Edition2021) }
+   0.226682400s  INFO prepare_target{force=false package_id=spki v0.7.3 target="spki"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\akank\Downloads\stellar crowdfunding level 2\contract\target\debug\.fingerprint\spki-6ad357aea8b79424\lib-spki`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_libgit2_prerelease
+  19: <unknown>
+  20: <unknown>
+  21: <unknown>
+  22: <unknown>
+  23: git_midx_writer_dump
+  24: git_filter_source_repo
+  25: git_midx_writer_dump
+  26: BaseThreadInitThunk
+  27: RtlUserThreadStart
+   0.227653100s  INFO prepare_target{force=false package_id=sec1 v0.7.3 target="sec1"}: cargo::core::compiler::fingerprint: fingerprint error for sec1 v0.7.3/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("sec1", ["lib"], "C:\\Users\\akank\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\sec1-0.7.3\\src\\lib.rs", Edition2021) }
+   0.227695000s  INFO prepare_target{force=false package_id=sec1 v0.7.3 target="sec1"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\akank\Downloads\stellar crowdfunding level 2\contract\target\debug\.fingerprint\sec1-4dfef0bd2299f338\lib-sec1`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_libgit2_prerelease
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: <unknown>
+  22: git_midx_writer_dump
+  23: git_filter_source_repo
+  24: git_midx_writer_dump
+  25: BaseThreadInitThunk
+  26: RtlUserThreadStart
+   0.228442500s  INFO prepare_target{force=false package_id=rfc6979 v0.4.0 target="rfc6979"}: cargo::core::compiler::fingerprint: fingerprint error for rfc6979 v0.4.0/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("rfc6979", ["lib"], "C:\\Users\\akank\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\rfc6979-0.4.0\\src\\lib.rs", Edition2021) }
+   0.228473700s  INFO prepare_target{force=false package_id=rfc6979 v0.4.0 target="rfc6979"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\akank\Downloads\stellar crowdfunding level 2\contract\target\debug\.fingerprint\rfc6979-efe1d19eca087f5a\lib-rfc6979`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_libgit2_prerelease
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+   0.229077900s  INFO prepare_target{force=false package_id=once_cell v1.21.3 target="once_cell"}: cargo::core::compiler::fingerprint: fingerprint error for once_cell v1.21.3/Check { test: false }/TargetInner { ..: lib_target("once_cell", ["lib"], "C:\\Users\\akank\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\once_cell-1.21.3\\src\\lib.rs", Edition2021) }
+   0.229099200s  INFO prepare_target{force=false package_id=once_cell v1.21.3 target="once_cell"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\akank\Downloads\stellar crowdfunding level 2\contract\target\debug\.fingerprint\once_cell-dcde4d42ac7e7b83\lib-once_cell`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_libgit2_prerelease
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   0.229745700s  INFO prepare_target{force=false package_id=num-integer v0.1.45 target="num_integer"}: cargo::core::compiler::fingerprint: fingerprint error for num-integer v0.1.45/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("num_integer", ["lib"], "C:\\Users\\akank\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\num-integer-0.1.45\\src\\lib.rs", Edition2015) }
+   0.229766300s  INFO prepare_target{force=false package_id=num-integer v0.1.45 target="num_integer"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\akank\Downloads\stellar crowdfunding level 2\contract\target\debug\.fingerprint\num-integer-26a5726a3c5fb8e3\lib-num_integer`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_libgit2_prerelease
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   0.231131500s  INFO prepare_target{force=false package_id=num-traits v0.2.17 target="num_traits"}: cargo::core::compiler::fingerprint: fingerprint error for num-traits v0.2.17/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("num_traits", ["lib"], "C:\\Users\\akank\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\num-traits-0.2.17\\src\\lib.rs", Edition2018) }
+   0.231155700s  INFO prepare_target{force=false package_id=num-traits v0.2.17 target="num_traits"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\akank\Downloads\stellar crowdfunding level 2\contract\target\debug\.fingerprint\num-traits-4234022169d1cfad\lib-num_traits`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_libgit2_prerelease
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   0.232868200s  INFO prepare_target{force=false package_id=sha3 v0.10.8 target="sha3"}: cargo::core::compiler::fingerprint: fingerprint error for sha3 v0.10.8/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("sha3", ["lib"], "C:\\Users\\akank\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\sha3-0.10.8\\src\\lib.rs", Edition2018) }
+   0.232907900s  INFO prepare_target{force=false package_id=sha3 v0.10.8 target="sha3"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\akank\Downloads\stellar crowdfunding level 2\contract\target\debug\.fingerprint\sha3-743b5a0bcf6ed71e\lib-sha3`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_libgit2_prerelease
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   0.233429500s  INFO prepare_target{force=false package_id=keccak v0.1.6 target="keccak"}: cargo::core::compiler::fingerprint: fingerprint error for keccak v0.1.6/Check { test: false }/TargetInner { ..: lib_target("keccak", ["lib"], "C:\\Users\\akank\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\keccak-0.1.6\\src\\lib.rs", Edition2018) }
+   0.233450400s  INFO prepare_target{force=false package_id=keccak v0.1.6 target="keccak"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\akank\Downloads\stellar crowdfunding level 2\contract\target\debug\.fingerprint\keccak-b2fdeb4f5dd153dc\lib-keccak`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_libgit2_prerelease
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   0.234967400s  INFO prepare_target{force=false package_id=soroban-env-common v20.3.0 target="soroban_env_common"}: cargo::core::compiler::fingerprint: fingerprint error for soroban-env-common v20.3.0/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("soroban_env_common", ["lib"], "C:\\Users\\akank\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\soroban-env-common-20.3.0\\src\\lib.rs", Edition2021) }
+   0.235011700s  INFO prepare_target{force=false package_id=soroban-env-common v20.3.0 target="soroban_env_common"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\akank\Downloads\stellar crowdfunding level 2\contract\target\debug\.fingerprint\soroban-env-common-7491c97b40663180\lib-soroban_env_common`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_libgit2_prerelease
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   0.236123800s  INFO prepare_target{force=false package_id=ethnum v1.5.0 target="ethnum"}: cargo::core::compiler::fingerprint: fingerprint error for ethnum v1.5.0/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("ethnum", ["lib"], "C:\\Users\\akank\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\ethnum-1.5.0\\src\\lib.rs", Edition2021) }
+   0.236161900s  INFO prepare_target{force=false package_id=ethnum v1.5.0 target="ethnum"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\akank\Downloads\stellar crowdfunding level 2\contract\target\debug\.fingerprint\ethnum-a7b0166fa28f118a\lib-ethnum`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_libgit2_prerelease
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   0.246187300s  INFO prepare_target{force=false package_id=soroban-wasmi v0.31.1-soroban.20.0.1 target="soroban_wasmi"}: cargo::core::compiler::fingerprint: fingerprint error for soroban-wasmi v0.31.1-soroban.20.0.1/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("soroban_wasmi", ["lib"], "C:\\Users\\akank\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\soroban-wasmi-0.31.1-soroban.20.0.1\\src\\lib.rs", Edition2021) }
+   0.246246000s  INFO prepare_target{force=false package_id=soroban-wasmi v0.31.1-soroban.20.0.1 target="soroban_wasmi"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\akank\Downloads\stellar crowdfunding level 2\contract\target\debug\.fingerprint\soroban-wasmi-504e99e950b2adf7\lib-soroban_wasmi`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_libgit2_prerelease
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   0.247071200s  INFO prepare_target{force=false package_id=smallvec v1.15.1 target="smallvec"}: cargo::core::compiler::fingerprint: fingerprint error for smallvec v1.15.1/Check { test: false }/TargetInner { ..: lib_target("smallvec", ["lib"], "C:\\Users\\akank\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\smallvec-1.15.1\\src\\lib.rs", Edition2018) }
+   0.247102800s  INFO prepare_target{force=false package_id=smallvec v1.15.1 target="smallvec"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\akank\Downloads\stellar crowdfunding level 2\contract\target\debug\.fingerprint\smallvec-5961c173b7d7c659\lib-smallvec`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_libgit2_prerelease
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+   0.247575900s  INFO prepare_target{force=false package_id=spin v0.9.8 target="spin"}: cargo::core::compiler::fingerprint: fingerprint error for spin v0.9.8/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("spin", ["lib"], "C:\\Users\\akank\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\spin-0.9.8\\src\\lib.rs", Edition2015) }
+   0.247596000s  INFO prepare_target{force=false package_id=spin v0.9.8 target="spin"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\akank\Downloads\stellar crowdfunding level 2\contract\target\debug\.fingerprint\spin-aa7bf1156c9faa70\lib-spin`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_libgit2_prerelease
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+   0.248527300s  INFO prepare_target{force=false package_id=wasmi_arena v0.4.1 target="wasmi_arena"}: cargo::core::compiler::fingerprint: fingerprint error for wasmi_arena v0.4.1/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("wasmi_arena", ["lib"], "C:\\Users\\akank\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\wasmi_arena-0.4.1\\src\\lib.rs", Edition2021) }
+   0.248575900s  INFO prepare_target{force=false package_id=wasmi_arena v0.4.1 target="wasmi_arena"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\akank\Downloads\stellar crowdfunding level 2\contract\target\debug\.fingerprint\wasmi_arena-be1876e74b0864fb\lib-wasmi_arena`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_libgit2_prerelease
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+   0.249319700s  INFO prepare_target{force=false package_id=wasmi_core v0.13.0 target="wasmi_core"}: cargo::core::compiler::fingerprint: fingerprint error for wasmi_core v0.13.0/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("wasmi_core", ["lib"], "C:\\Users\\akank\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\wasmi_core-0.13.0\\src\\lib.rs", Edition2021) }
+   0.249353400s  INFO prepare_target{force=false package_id=wasmi_core v0.13.0 target="wasmi_core"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\akank\Downloads\stellar crowdfunding level 2\contract\target\debug\.fingerprint\wasmi_core-550ed1f003331f28\lib-wasmi_core`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_libgit2_prerelease
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+   0.250148800s  INFO prepare_target{force=false package_id=downcast-rs v1.2.1 target="downcast_rs"}: cargo::core::compiler::fingerprint: fingerprint error for downcast-rs v1.2.1/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("downcast_rs", ["lib"], "C:\\Users\\akank\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\downcast-rs-1.2.1\\src\\lib.rs", Edition2015) }
+   0.250181600s  INFO prepare_target{force=false package_id=downcast-rs v1.2.1 target="downcast_rs"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\akank\Downloads\stellar crowdfunding level 2\contract\target\debug\.fingerprint\downcast-rs-b77944fd06b13984\lib-downcast_rs`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_libgit2_prerelease
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: <unknown>
+  22: git_midx_writer_dump
+  23: git_filter_source_repo
+  24: git_midx_writer_dump
+  25: BaseThreadInitThunk
+  26: RtlUserThreadStart
+   0.250715300s  INFO prepare_target{force=false package_id=libm v0.2.16 target="libm"}: cargo::core::compiler::fingerprint: fingerprint error for libm v0.2.16/Check { test: false }/TargetInner { ..: lib_target("libm", ["lib"], "C:\\Users\\akank\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\libm-0.2.16\\src\\lib.rs", Edition2021) }
+   0.250737600s  INFO prepare_target{force=false package_id=libm v0.2.16 target="libm"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\akank\Downloads\stellar crowdfunding level 2\contract\target\debug\.fingerprint\libm-3299e7d0d3daeccb\lib-libm`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_libgit2_prerelease
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: <unknown>
+  22: git_midx_writer_dump
+  23: git_filter_source_repo
+  24: git_midx_writer_dump
+  25: BaseThreadInitThunk
+  26: RtlUserThreadStart
+   0.253143800s  INFO prepare_target{force=false package_id=wasmparser-nostd v0.100.2 target="wasmparser_nostd"}: cargo::core::compiler::fingerprint: fingerprint error for wasmparser-nostd v0.100.2/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("wasmparser_nostd", ["lib"], "C:\\Users\\akank\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\wasmparser-nostd-0.100.2\\src\\lib.rs", Edition2021) }
+   0.253178600s  INFO prepare_target{force=false package_id=wasmparser-nostd v0.100.2 target="wasmparser_nostd"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\akank\Downloads\stellar crowdfunding level 2\contract\target\debug\.fingerprint\wasmparser-nostd-795da8be5e6f7c17\lib-wasmparser_nostd`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_libgit2_prerelease
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+   0.253877900s  INFO prepare_target{force=false package_id=indexmap-nostd v0.4.0 target="indexmap_nostd"}: cargo::core::compiler::fingerprint: fingerprint error for indexmap-nostd v0.4.0/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("indexmap_nostd", ["lib"], "C:\\Users\\akank\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\indexmap-nostd-0.4.0\\src\\lib.rs", Edition2021) }
+   0.253903600s  INFO prepare_target{force=false package_id=indexmap-nostd v0.4.0 target="indexmap_nostd"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\akank\Downloads\stellar crowdfunding level 2\contract\target\debug\.fingerprint\indexmap-nostd-02eeb2fb716004c9\lib-indexmap_nostd`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_libgit2_prerelease
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: <unknown>
+  22: git_midx_writer_dump
+  23: git_filter_source_repo
+  24: git_midx_writer_dump
+  25: BaseThreadInitThunk
+  26: RtlUserThreadStart
+   0.254658700s  INFO prepare_target{force=false package_id=static_assertions v1.1.0 target="static_assertions"}: cargo::core::compiler::fingerprint: fingerprint error for static_assertions v1.1.0/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("static_assertions", ["lib"], "C:\\Users\\akank\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\static_assertions-1.1.0\\src\\lib.rs", Edition2015) }
+   0.254708500s  INFO prepare_target{force=false package_id=static_assertions v1.1.0 target="static_assertions"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\akank\Downloads\stellar crowdfunding level 2\contract\target\debug\.fingerprint\static_assertions-7202a032105f2bfc\lib-static_assertions`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_libgit2_prerelease
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   0.255909300s  INFO prepare_target{force=false package_id=stellar-xdr v20.1.0 target="stellar_xdr"}: cargo::core::compiler::fingerprint: fingerprint error for stellar-xdr v20.1.0/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("stellar_xdr", ["lib"], "C:\\Users\\akank\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\stellar-xdr-20.1.0\\src\\lib.rs", Edition2021) }
+   0.255960100s  INFO prepare_target{force=false package_id=stellar-xdr v20.1.0 target="stellar_xdr"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\akank\Downloads\stellar crowdfunding level 2\contract\target\debug\.fingerprint\stellar-xdr-3029233e4b31442f\lib-stellar_xdr`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_libgit2_prerelease
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   0.257270100s  INFO prepare_target{force=false package_id=base64 v0.13.1 target="base64"}: cargo::core::compiler::fingerprint: fingerprint error for base64 v0.13.1/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("base64", ["lib"], "C:\\Users\\akank\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\base64-0.13.1\\src\\lib.rs", Edition2018) }
+   0.257310100s  INFO prepare_target{force=false package_id=base64 v0.13.1 target="base64"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\akank\Downloads\stellar crowdfunding level 2\contract\target\debug\.fingerprint\base64-021f521fdde6217b\lib-base64`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_libgit2_prerelease
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+   0.258578500s  INFO prepare_target{force=false package_id=escape-bytes v0.1.1 target="escape_bytes"}: cargo::core::compiler::fingerprint: fingerprint error for escape-bytes v0.1.1/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("escape_bytes", ["lib"], "C:\\Users\\akank\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\escape-bytes-0.1.1\\src\\lib.rs", Edition2021) }
+   0.258606600s  INFO prepare_target{force=false package_id=escape-bytes v0.1.1 target="escape_bytes"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\akank\Downloads\stellar crowdfunding level 2\contract\target\debug\.fingerprint\escape-bytes-6fe30311fef8696c\lib-escape_bytes`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_libgit2_prerelease
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+   0.259348400s  INFO prepare_target{force=false package_id=hex v0.4.3 target="hex"}: cargo::core::compiler::fingerprint: fingerprint error for hex v0.4.3/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("hex", ["lib"], "C:\\Users\\akank\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\hex-0.4.3\\src\\lib.rs", Edition2018) }
+   0.259375200s  INFO prepare_target{force=false package_id=hex v0.4.3 target="hex"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\akank\Downloads\stellar crowdfunding level 2\contract\target\debug\.fingerprint\hex-a97905d796657b96\lib-hex`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_libgit2_prerelease
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+   0.260198900s  INFO prepare_target{force=false package_id=serde_with v3.12.0 target="serde_with"}: cargo::core::compiler::fingerprint: fingerprint error for serde_with v3.12.0/Check { test: false }/TargetInner { ..: lib_target("serde_with", ["lib"], "C:\\Users\\akank\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\serde_with-3.12.0\\src\\lib.rs", Edition2021) }
+   0.260224800s  INFO prepare_target{force=false package_id=serde_with v3.12.0 target="serde_with"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\akank\Downloads\stellar crowdfunding level 2\contract\target\debug\.fingerprint\serde_with-2466d9c6c245d21b\lib-serde_with`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_libgit2_prerelease
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+   0.261117200s  INFO prepare_target{force=false package_id=stellar-strkey v0.0.8 target="stellar_strkey"}: cargo::core::compiler::fingerprint: fingerprint error for stellar-strkey v0.0.8/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("stellar_strkey", ["lib"], "C:\\Users\\akank\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\stellar-strkey-0.0.8\\src\\lib.rs", Edition2021) }
+   0.261140300s  INFO prepare_target{force=false package_id=stellar-strkey v0.0.8 target="stellar_strkey"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\akank\Downloads\stellar crowdfunding level 2\contract\target\debug\.fingerprint\stellar-strkey-22424cd89508e708\lib-stellar_strkey`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_libgit2_prerelease
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+   0.262098200s  INFO prepare_target{force=false package_id=base32 v0.4.0 target="base32"}: cargo::core::compiler::fingerprint: fingerprint error for base32 v0.4.0/Check { test: false }/TargetInner { ..: lib_target("base32", ["lib"], "C:\\Users\\akank\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\base32-0.4.0\\src\\lib.rs", Edition2015) }
+   0.262128000s  INFO prepare_target{force=false package_id=base32 v0.4.0 target="base32"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\akank\Downloads\stellar crowdfunding level 2\contract\target\debug\.fingerprint\base32-0bb560194fe415a6\lib-base32`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_libgit2_prerelease
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: <unknown>
+  22: git_midx_writer_dump
+  23: git_filter_source_repo
+  24: git_midx_writer_dump
+  25: BaseThreadInitThunk
+  26: RtlUserThreadStart
+   0.263128100s  INFO prepare_target{force=false package_id=thiserror v1.0.55 target="thiserror"}: cargo::core::compiler::fingerprint: fingerprint error for thiserror v1.0.55/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("thiserror", ["lib"], "C:\\Users\\akank\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\thiserror-1.0.55\\src\\lib.rs", Edition2021) }
+   0.263172000s  INFO prepare_target{force=false package_id=thiserror v1.0.55 target="thiserror"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\akank\Downloads\stellar crowdfunding level 2\contract\target\debug\.fingerprint\thiserror-d4a442d4786dd0b4\lib-thiserror`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_libgit2_prerelease
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: <unknown>
+  22: git_midx_writer_dump
+  23: git_filter_source_repo
+  24: git_midx_writer_dump
+  25: BaseThreadInitThunk
+  26: RtlUserThreadStart
+   0.265394500s  INFO prepare_target{force=false package_id=soroban-ledger-snapshot v20.5.0 target="soroban_ledger_snapshot"}: cargo::core::compiler::fingerprint: fingerprint error for soroban-ledger-snapshot v20.5.0/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("soroban_ledger_snapshot", ["lib"], "C:\\Users\\akank\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\soroban-ledger-snapshot-20.5.0\\src\\lib.rs", Edition2021) }
+   0.265433200s  INFO prepare_target{force=false package_id=soroban-ledger-snapshot v20.5.0 target="soroban_ledger_snapshot"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\akank\Downloads\stellar crowdfunding level 2\contract\target\debug\.fingerprint\soroban-ledger-snapshot-283c469a990c509e\lib-soroban_ledger_snapshot`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_libgit2_prerelease
+  14: <unknown>
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: git_midx_writer_dump
+  19: git_filter_source_repo
+  20: git_midx_writer_dump
+  21: BaseThreadInitThunk
+  22: RtlUserThreadStart
+   0.273235800s  INFO prepare_target{force=false package_id=crowdfunding v0.1.0 (C:\Users\akank\Downloads\stellar crowdfunding level 2\contract) target="crowdfunding"}: cargo::core::compiler::fingerprint: fingerprint error for crowdfunding v0.1.0 (C:\Users\akank\Downloads\stellar crowdfunding level 2\contract)/Check { test: true }/TargetInner { name_inferred: true, ..: lib_target("crowdfunding", ["cdylib"], "C:\\Users\\akank\\Downloads\\stellar crowdfunding level 2\\contract\\src\\lib.rs", Edition2021) }
+   0.273271000s  INFO prepare_target{force=false package_id=crowdfunding v0.1.0 (C:\Users\akank\Downloads\stellar crowdfunding level 2\contract) target="crowdfunding"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\akank\Downloads\stellar crowdfunding level 2\contract\target\debug\.fingerprint\crowdfunding-94a2d18c48dc8274\test-lib-crowdfunding`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_libgit2_prerelease
+  12: <unknown>
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+    Checking zeroize v1.8.2
+    Checking const-oid v0.9.6
+    Checking subtle v2.6.1
+    Checking cfg-if v1.0.4
+    Checking typenum v1.19.0
+    Checking serde v1.0.192
+    Checking num-traits v0.2.17
+    Checking cpufeatures v0.2.17
+    Checking byteorder v1.5.0
+    Checking base16ct v0.2.0
+    Checking libm v0.2.16
+    Checking thiserror v1.0.55
+    Checking getrandom v0.2.11
+    Checking downcast-rs v1.2.1
+    Checking base32 v0.4.0
+    Checking indexmap-nostd v0.4.0
+    Checking der v0.7.10
+    Checking wasmi_arena v0.4.1
+    Checking smallvec v1.15.1
+    Checking zerocopy v0.7.35
+    Checking base64 v0.13.1
+    Checking stellar-strkey v0.0.8
+    Checking rand_core v0.6.4
+    Checking escape-bytes v0.1.1
+    Checking wasmparser-nostd v0.100.2
+    Checking spin v0.9.8
+    Checking static_assertions v1.1.0
+    Checking keccak v0.1.6
+    Checking ff v0.13.1
+    Checking once_cell v1.21.3
+    Checking generic-array v0.14.9
+    Checking ethnum v1.5.0
+    Checking num-integer v0.1.45
+    Checking itoa v1.0.17
+    Checking group v0.13.0
+    Checking ryu v1.0.23
+    Checking hex-literal v0.4.1
+    Checking ppv-lite86 v0.2.20
+    Checking wasmi_core v0.13.0
+    Checking spki v0.7.3
+    Checking crypto-common v0.1.6
+    Checking block-buffer v0.10.4
+    Checking crypto-bigint v0.5.5
+    Checking sec1 v0.7.3
+    Checking pkcs8 v0.10.2
+    Checking digest v0.10.7
+    Checking rand_chacha v0.3.1
+    Checking signature v2.2.0
+    Checking hmac v0.12.1
+    Checking sha2 v0.10.8
+    Checking curve25519-dalek v4.1.2
+    Checking sha3 v0.10.8
+    Checking rand v0.8.5
+    Checking rfc6979 v0.4.0
+    Checking ed25519 v2.2.3
+    Checking hex v0.4.3
+    Checking serde_json v1.0.108
+    Checking elliptic-curve v0.13.8
+    Checking serde_with v3.12.0
+    Checking ed25519-dalek v2.0.0
+    Checking ecdsa v0.16.9
+    Checking soroban-wasmi v0.31.1-soroban.20.0.1
+    Checking k256 v0.13.1
+    Checking stellar-xdr v20.1.0
+    Checking soroban-env-common v20.3.0
+    Checking soroban-env-host v20.3.0
+    Checking soroban-ledger-snapshot v20.5.0
+    Checking soroban-sdk v20.5.0
+    Checking crowdfunding v0.1.0 (C:\Users\akank\Downloads\stellar crowdfunding level 2\contract)
+error: could not compile `crowdfunding` (lib test) due to 2 previous errors; 4 warnings emitted

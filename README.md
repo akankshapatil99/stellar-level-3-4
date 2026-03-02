@@ -1,41 +1,57 @@
 # Stellar Crowdfunding Level 2
 
-A decentralized crowdfunding application built on the Stellar network. This application features multiple wallet integrations (Freighter, Rabet, Lobstr), dynamic smart contract deployment from the frontend, campaign creation and management, real-time transaction event tracking, and downloadable gratitude certificates for donors.
+A decentralized crowdfunding application built on the Stellar network. This application features multiple wallet integrations (Freighter, Rabet), dynamic smart contract deployment from the frontend, campaign creation and management, real-time transaction event tracking, and downloadable gratitude certificates for donors.
 
 # Features
 
-- **Multi-Wallet Integration**: Connect seamlessly using Freighter, Rabet, or Lobstr wallets.
+- **Multi-Wallet Integration**: Connect seamlessly using Freighter, Rabet wallets.
 - **Smart Contract Deployment**: Deploy crowdfunding campaigns directly to the Stellar testnet from the frontend.
 - **Real-Time Transaction Updates**: Monitor the status of your transactions directly in the frontend interface.
 - **Gratitude Certificates**: Donors receive a shiny, downloadable gratitude certificate upon successfully funding a campaign.
 - **Modern UI**: An intuitive layout with polished design, featuring responsive and dynamic elements.
 
-# Screenshots
+# Screenshots / Demo Video
 
-# Main User Interface
-<img src="l2ss/ui1.png" alt="Main UI 1" width="800">
-<br/>
-<img src="l2ss/ui campaigns.png" alt="Campaigns Interface" width="800">
+<video src="l2ss/stellar%20screenrecording.mp4" controls width="100%">
+  Your browser does not support the video tag.
+</video>
 
-# Multi-Wallet Connect
-<img src="l2ss/multi wallet.png" alt="Multi Wallet" width="800">
+### Platform Walkthrough
 
-# Contract Deployment Flow
-<img src="l2ss/contract deploy 1.png" alt="Contract Deploy 1" width="800">
-<br/>
-<img src="l2ss/contract deploy 2.png" alt="Contract Deploy 2" width="800">
-<br/>
-<img src="l2ss/contract deploy 3.png" alt="Contract Deploy 3" width="800">
+Below is a step-by-step visual walkthrough of the platform's features, including viewing campaigns, connecting a wallet, funding a cause, and receiving an on-chain gratitude certificate.
 
-# Stellar Interaction & Exploring
-<img src="l2ss/stellar.png" alt="Stellar Popup Status" width="800">
-<br/>
-<img src="l2ss/stellar lab.png" alt="Stellar Lab Status" width="800">
+**1. Home / Dashboard**  
+<img src="l2ss/Screenshot%202026-03-02%20183316.png" alt="Platform Dashboard" width="800">
 
-# Features & Extras
-<img src="l2ss/gratitude certificate.png" alt="Gratitude Certificate" width="800">
-<br/>
-<img src="l2ss/localhost.png" alt="Local Development Dashboard" width="800">
+**2. Platform Architecture & Information**  
+<img src="l2ss/Screenshot%202026-03-02%20183339.png" alt="Platform Architecture" width="800">
+
+**3. Connecting Web3 Wallet (Freighter/Rabet)**  
+<img src="l2ss/Screenshot%202026-03-02%20183405.png" alt="Wallet Connection Options" width="800">
+
+**4. Browsing Verified Campaigns**  
+<img src="l2ss/Screenshot%202026-03-02%20183451.png" alt="Campaigns Grid" width="800">
+
+**5. Campaign Details & Information**  
+<img src="l2ss/Screenshot%202026-03-02%20183502.png" alt="Campaign Details" width="800">
+
+**6. Initiating a Contribution**  
+<img src="l2ss/Screenshot%202026-03-02%20183534.png" alt="Donation Input" width="800">
+
+**7. Signing Transaction (Smart Contract Execution)**  
+<img src="l2ss/Screenshot%202026-03-02%20183652.png" alt="Smart Contract Signature" width="800">
+
+**8. Transaction Success & Notification**  
+<img src="l2ss/Screenshot%202026-03-02%20183719.png" alt="Transaction Toast Notification" width="800">
+
+**9. Generating Gratitude Certificate**  
+<img src="l2ss/Screenshot%202026-03-02%20183813.png" alt="Gratitude Certificate Verification" width="800">
+
+**10. Viewing on Stellar.Expert Ledger**  
+<img src="l2ss/Screenshot%202026-03-02%20183837.png" alt="Stellar Expert Explorer" width="800">
+
+**11. User Transaction History**  
+<img src="l2ss/Screenshot%202026-03-03%20005154.png" alt="Transaction History" width="800">
 
 # Getting Started
 

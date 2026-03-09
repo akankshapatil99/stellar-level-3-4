@@ -537,7 +537,38 @@ export default function App() {
     camp.desc.toLowerCase().includes(searchTerm.toLowerCase())
   );
 
+  if (isLoading) {
+    return (
+      <div className="loading-screen" style={{
+        height: '100vh',
+        width: '100vw',
+        display: 'flex',
+        flexDirection: 'column',
+        alignItems: 'center',
+        justifyContent: 'center',
+        background: 'var(--bg-main)',
+        color: 'var(--text-bold)',
+        zIndex: 10001
+      }}>
+        <div className="loader-spinner" style={{
+          width: '50px',
+          height: '50px',
+          border: '3px solid var(--border)',
+          borderTop: '3px solid var(--accent)',
+          borderRadius: '50%',
+          animation: 'spin 1s linear infinite',
+          marginBottom: '20px'
+        }}></div>
+        <div style={{ fontSize: '1.2rem', fontWeight: '700', letterSpacing: '2px', textTransform: 'uppercase' }}>Initializing Nexus...</div>
+        <style>
+          {`@keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }`}
+        </style>
+      </div>
+    );
+  }
+
   return (
+
     <div className="app-container">
       <header className="menubar-header">
         <div className="menubar-content">

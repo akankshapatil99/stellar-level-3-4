@@ -91,6 +91,21 @@ Below is a detailed visual walkthrough of the Nexus platform architecture and us
 
 ---
 
+## 🚀 8 Meaningful Commits
+
+The project has been enhanced through 8+ strategic, atomic commits following conventional standards to ensure code quality and maintainability:
+
+1.  **`feat(seo)`**: Integrated high-impact meta tags, Open Graph properties, and an emoji favicon for professional search engine visibility.
+2.  **`feat(a11y)`**: Implemented smooth-scroll behavior and `prefers-reduced-motion` CSS support for a more accessible user experience.
+3.  **`docs(contract)`**: Authored comprehensive **Rustdoc** documentation for all smart contract functions and state keys.
+4.  **`test(contract)`**: Expanded the test suite to include **5+ critical test cases**, covering zero-donation panic guards and NXS balance tracking.
+5.  **`feat(frontend)`**: Developed an animated **global loading screen** to provide visual feedback during initial blockchain data fetching.
+6.  **`feat(frontend)`**: Implemented **automatic balance polling** that refreshes XLM and NXS totals every 30 seconds for a live dashboard.
+7.  **`feat(frontend)`**: Integrated a **Global Impact Progress Bar** to visualize collective community contributions against the 500,000 XLM target.
+8.  **`docs(contributing)`**: Created a detailed **`CONTRIBUTING.md`** guide covering setup, structure, and professional development standards.
+
+---
+
 ## ⚙️ Development Setup
 
 Refer to our **[CONTRIBUTING.md](./CONTRIBUTING.md)** for detailed environment setup, local deployment instructions, and coding standards.

@@ -86,8 +86,10 @@ Below is a detailed visual walkthrough of the Nexus platform architecture and us
 <img src="./l2ss/Screenshot 2026-03-03 005154.png" alt="Verification" width="800">
 *Real-time indexing and verification of transactions on the Stellar network.*
 
-### 🎥 Project Walkthrough (Video)
-[![Watch the Demo](https://img.shields.io/badge/Watch-Demo%20Video-red?style=for-the-badge&logo=youtube)](./l2ss/stellar%20screenrecording.mp4)
+### 🎥 Project Walkthroughs
+| Desktop Walkthrough | Mobile Walkthrough |
+| :---: | :---: |
+| [![Watch the Demo](https://img.shields.io/badge/Watch-Desktop%20Demo%20Video-red?style=for-the-badge&logo=youtube)](./l2ss/stellar%20screenrecording.mp4) | [![Watch the Demo](https://img.shields.io/badge/Watch-Mobile%20Demo%20Video-red?style=for-the-badge&logo=youtube)](./l2ss/phone%20recording.mp4) |
 
 ---
 
@@ -129,4 +131,4 @@ cargo build --target wasm32-unknown-unknown --release
 - **Discord**: [Stellar Developers](https://discord.gg/stellardev)
 
 ---
-*Built with ❤️ for the Stellar Ecosystem.*
+

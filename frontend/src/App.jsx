@@ -290,6 +290,8 @@ export default function App() {
   useEffect(() => {
     if (address) {
       fetchWalletData();
+      const interval = setInterval(fetchWalletData, 30000); // Poll every 30s
+      return () => clearInterval(interval);
     }
   }, [address]);
 

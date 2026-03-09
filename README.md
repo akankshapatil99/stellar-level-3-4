@@ -45,7 +45,6 @@ Nexus is a premium, decentralized crowdfunding platform powered by the **Stellar
 - **Frontend**: React (Vite), Vanilla CSS, Stellar SDK.
 - **Wallet Support**: Freighter & Rabet (Multi-wallet integration).
 - **CI/CD**: GitHub Actions (Automated build & test pipelines for Rust and React).
-- **Hosting**: Vercel (Frontend) + Stellar Testnet (Backend).
 
 ---
 
@@ -64,18 +63,31 @@ cargo test
 
 ---
 
-## 📜 14+ Meaningful Commits Summary
+## � Full Project Gallery
 
-The project has evolved through professional, atomic commits following conventional standards:
-1. **feat(seo)**: Added meta tags, Open Graph, and descriptive titles.
-2. **feat(a11y)**: Implemented smooth scroll and reduced-motion support.
-3. **docs(contract)**: Added comprehensive Rustdoc to all public functions.
-4. **test(contract)**: Expanded test suite to cover zero-donation panics.
-5. **feat(frontend)**: Added global loading screen and balance polling.
-6. **refactor(frontend)**: Modularized static data into a clean `config.js`.
-7. **style(ui)**: Custom color-coded status toasts (Green/Red/Blue).
-8. **chore(gitignore)**: Expanded rules for CI/CD and build artifacts.
-... *and more.*
+Below is a detailed visual walkthrough of the Nexus platform architecture and user interface.
+
+### 🖼️ UI Walkthrough & Features
+| Features Overview | Interactive Elements |
+| :---: | :---: |
+| ![Features](./l2ss/Screenshot%202026-03-02%20183502.png) | ![Modals](./l2ss/Screenshot%202026-03-02%20183534.png) |
+| *Intuitive platform feature highlights.* | *Responsive modal architecture for wallet interactions.* |
+
+### 🛠️ Strategic Components
+| Campaign Details | Community Initiatives |
+| :---: | :---: |
+| ![Details](./l2ss/Screenshot%202026-03-02%20183652.png) | ![Initiatives](./l2ss/Screenshot%202026-03-02%20183719.png) |
+
+| Platform Information | Navigation System |
+| :---: | :---: |
+| ![About](./l2ss/Screenshot%202026-03-02%20183813.png) | ![Navigation](./l2ss/Screenshot%202026-03-02%20183837.png) |
+
+### 🔍 Verification & Finality
+![Verification](./l2ss/Screenshot%202026-03-03%20005154.png)
+*Real-time indexing and verification of transactions on the Stellar network.*
+
+### 🎥 Project Walkthrough (Video)
+[![Watch the Demo](https://img.shields.io/badge/Watch-Demo%20Video-red?style=for-the-badge&logo=youtube)](./l2ss/stellar%20screenrecording.mp4)
 
 ---
 

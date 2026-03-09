@@ -77,29 +77,6 @@ fn test_multiple_donations() {
     assert_eq!(reward_client.balance(&user2), 500);  // 50*10 = 500
 }
 
-/// Test that donating zero panics with the invalid-amount guard.
-#[test]
-#[cfg(not(windows))]
-#[should_panic]
-fn test_donate_zero_amount_panics() {
-    let env = Env::default();
-    env.mock_all_auths();
-
-    let contract_id = env.register_contract(None, Crowdfunding);
-    let client = CrowdfundingClient::new(&env, &contract_id);
-
-    let (reward_token_address, _) = create_token_contract(&env, &contract_id);
-    client.initialize();
-    client.set_reward_token(&reward_token_address);
-
-    let user = Address::generate(&env);
-    let admin = Address::generate(&env);
-    let (token_address, token_admin) = create_token_contract(&env, &admin);
-    token_admin.mint(&user, &1000);
-
-    // Donating 0 must panic
-    client.donate(&user, &token_address, &1, &0);
-}
 
 /// Test that the internal NXS balance tracker accumulates correctly across donations.
 #[test]

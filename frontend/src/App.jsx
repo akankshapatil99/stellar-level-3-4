@@ -608,9 +608,16 @@ export default function App() {
                     {nxsBalance} NXS
                   </div>
                   <div className="wallet-balance" style={{ fontSize: '1rem' }}>{balance ? `${Number(balance).toFixed(2)} XLM` : '0.00 XLM'}</div>
-                  <div className="wallet-address" style={{ fontSize: '0.65rem', alignSelf: 'center' }}>
+                  <div className="wallet-address" style={{ fontSize: '0.65rem', alignSelf: 'center', cursor: 'pointer', display: 'flex', alignItems: 'center', gap: '5px' }} onClick={() => {
+                    navigator.clipboard.writeText(address);
+                    setStatus("Success: Address copied to clipboard!");
+                  }}>
                     {walletType === "freighter" ? "Freighter: " : "Rabet: "}
                     {String(address || "").substring(0, 5)}...{String(address || "").substring(String(address || "").length - 4)}
+                    <svg width="10" height="10" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M8 4V16C8 17.1046 8.89543 18 10 18H20C21.1046 18 22 17.1046 22 16V6C22 4.89543 21.1046 4 20 4H10C8.89543 4 8 4.89543 8 4Z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+                      <path d="M16 2H4C2.89543 2 2 2.89543 2 4V16" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+                    </svg>
                   </div>
                 </div>
                 <button className="wallet-btn" style={{ padding: '6px 12px', fontSize: '0.85rem' }} onClick={disconnectWallet}>

@@ -1,7 +1,7 @@
 # Nexus: Stellar Crowdfunding dApp
 
-[![Stellar CI Pipeline](https://github.com/akankshapatil99/stellar-level-3/actions/workflows/ci.yml/badge.svg)](https://github.com/akankshapatil99/stellar-level-3/actions/workflows/ci.yml)
-[![Demo](https://img.shields.io/badge/Live%20Demo-Vercel-blue?style=for-the-badge&logo=vercel)](https://frontend-liard-beta-68.vercel.app/)
+[![Stellar CI Pipeline](https://github.com/akankshapatil99/stellar-level-3-4/actions/workflows/ci.yml/badge.svg)](https://github.com/akankshapatil99/stellar-level-3-4/actions/workflows/ci.yml)
+[![Demo](https://img.shields.io/badge/Live%20Demo-Vercel-blue?style=for-the-badge&logo=vercel)](https://frontend-282amsr20-akankshapatil99s-projects.vercel.app/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 Nexus is a premium, decentralized crowdfunding platform powered by the **Stellar Soroban Network**. It enables users to fund high-impact initiatives with 100% on-chain transparency, rewarding contributors with native **NXS (Nexus)** tokens for every donation.
@@ -101,9 +101,9 @@ cd ../contract && cargo build --target wasm32-unknown-unknown --release
 
 Here is a summary of all the requirements for the Level 4 Deliverable:
 
-- **Live Demo:** [Vercel Deployment](https://frontend-liard-beta-68.vercel.app/)
+- **Live Demo:** [Vercel Deployment](https://frontend-282amsr20-akankshapatil99s-projects.vercel.app/)
 - **Mobile Responsive View:** See the [Mobile Responsive Design](#mobile-responsive-design) section or watch the [Mobile Demo Video](./l2ss/phone%20recording.mp4).
-- **CI/CD Pipeline Running:** [GitHub Actions Workflow](https://github.com/akankshapatil99/stellar-level-3/actions/workflows/ci.yml)
+- **CI/CD Pipeline Running:** [GitHub Actions Workflow](https://github.com/akankshapatil99/stellar-level-3-4/actions/workflows/ci.yml)
 - **Contract Addresses & Transaction Hash (Inter-Contract Calls):**
   - Nexus Platform Contract: `CBZ7ZPWXXWSHXWDLH2ZFC5XS66HAWWJZRJP3YC5BZ773KWLZPPRDKM3M`
   - Inter-Contract Call Token (XLM): `CDLZFC3SYJYDZT7K67VZ75HPJVIEUVNIXF47ZG2FB2RMQQVU2HHGCYSC`

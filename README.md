@@ -11,16 +11,16 @@ Nexus is a premium, decentralized crowdfunding platform powered by the **Stellar
 ## 📸 Project Showcase
 
 ### 🖥️ Dashboard & Global Impact
-![Dashboard Overview](./l2ss/Screenshot%202026-03-02%20183316.png)
+<img src="./l2ss/Screenshot 2026-03-02 183316.png" alt="Dashboard Overview" width="800">
 *Modern, glassmorphism UI featuring real-time platform stats and animated background elements.*
 
 ### 📱 Mobile Responsive Design
 | Desktop View | Mobile Sidebar |
 | :---: | :---: |
-| ![Desktop](./l2ss/Screenshot%202026-03-02%20183339.png) | ![Mobile Menu](./l2ss/Screenshot%202026-03-02%20183405.png) |
+| <img src="./l2ss/Screenshot 2026-03-02 183339.png" alt="Desktop" width="400"> | <img src="./l2ss/Screenshot 2026-03-02 183405.png" alt="Mobile Menu" width="400"> |
 
 ### 🎖️ On-Chain Proof of Gratitude
-![Certificate](./l2ss/Screenshot%202026-03-02%20183451.png)
+<img src="./l2ss/Screenshot 2026-03-02 183451.png" alt="Certificate" width="800">
 *Donors receive a downloadable, cryptographically verified Certificate of Gratitude after every contribution.*
 
 ---
@@ -58,32 +58,32 @@ cd contract
 cargo test
 ```
 
-![Test Results](./l2ss/cargo%20tests.png)
+<img src="./l2ss/cargo tests.png" alt="Test Results" width="800">
 *Verifying 5+ critical test cases including zero-donation guards and NXS balance tracking.*
 
 ---
 
-## � Full Project Gallery
+## 📷 Full Project Gallery
 
 Below is a detailed visual walkthrough of the Nexus platform architecture and user interface.
 
 ### 🖼️ UI Walkthrough & Features
 | Features Overview | Interactive Elements |
 | :---: | :---: |
-| ![Features](./l2ss/Screenshot%202026-03-02%20183502.png) | ![Modals](./l2ss/Screenshot%202026-03-02%20183534.png) |
+| <img src="./l2ss/Screenshot 2026-03-02 183502.png" alt="Features" width="400"> | <img src="./l2ss/Screenshot 2026-03-02 183534.png" alt="Modals" width="400"> |
 | *Intuitive platform feature highlights.* | *Responsive modal architecture for wallet interactions.* |
 
 ### 🛠️ Strategic Components
 | Campaign Details | Community Initiatives |
 | :---: | :---: |
-| ![Details](./l2ss/Screenshot%202026-03-02%20183652.png) | ![Initiatives](./l2ss/Screenshot%202026-03-02%20183719.png) |
+| <img src="./l2ss/Screenshot 2026-03-02 183652.png" alt="Details" width="400"> | <img src="./l2ss/Screenshot 2026-03-02 183719.png" alt="Initiatives" width="400"> |
 
 | Platform Information | Navigation System |
 | :---: | :---: |
-| ![About](./l2ss/Screenshot%202026-03-02%20183813.png) | ![Navigation](./l2ss/Screenshot%202026-03-02%20183837.png) |
+| <img src="./l2ss/Screenshot 2026-03-02 183813.png" alt="About" width="400"> | <img src="./l2ss/Screenshot 2026-03-02 183837.png" alt="Navigation" width="400"> |
 
 ### 🔍 Verification & Finality
-![Verification](./l2ss/Screenshot%202026-03-03%20005154.png)
+<img src="./l2ss/Screenshot 2026-03-03 005154.png" alt="Verification" width="800">
 *Real-time indexing and verification of transactions on the Stellar network.*
 
 ### 🎥 Project Walkthrough (Video)

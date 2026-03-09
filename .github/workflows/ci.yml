@@ -28,21 +28,7 @@ jobs:
 
       - name: Build Smart Contract
         working-directory: ./contract
-        continue-on-error: true
-        run: cargo build --target wasm32-unknown-unknown --release 2> build_error.txt
-      
-      - name: Dump build error
-        if: always()
-        run: cat ./contract/build_error.txt
-
-      - name: Push build error
-        if: always()
-        run: |
-          git config --global user.name 'github-actions[bot]'
-          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git add ./contract/build_error.txt
-          git commit -m "Capture build error log" || echo "No changes"
-          git push
+        run: cargo build --target wasm32-unknown-unknown --release
 
       - name: Test Smart Contract
         working-directory: ./contract

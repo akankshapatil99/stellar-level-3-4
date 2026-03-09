@@ -22,40 +22,9 @@ A robust, decentralized crowdfunding application built on the **Stellar Soroban 
 - **🤖 Automated CI/CD Pipeline**: GitHub Actions are configured to automatically build and test rust smart contracts and the frontend upon every push.
 - **🎨 Modern Web3 UI/UX**: An intuitive, premium glassmorphism-inspired layout featuring animated background orbs, shimmering effects, and engaging responsive design.
 
----
 
-## 📸 Platform Walkthrough
 
-Below is a step-by-step visual walkthrough of Nexus in action:
 
-<video src="l2ss/stellar%20screenrecording.mp4" controls width="100%">
-  Your browser does not support the video tag.
-</video>
-
-| Dashboard | Platform Architecture |
-| :---: | :---: |
-| <img src="l2ss/Screenshot%202026-03-02%20183316.png" width="400"> | <img src="l2ss/Screenshot%202026-03-02%20183339.png" width="400"> |
-
-| Wallet Connection | Browsing Campaigns |
-| :---: | :---: |
-| <img src="l2ss/Screenshot%202026-03-02%20183405.png" width="400"> | <img src="l2ss/Screenshot%202026-03-02%20183451.png" width="400"> |
-
-| Campaign Details | Initiating Contribution |
-| :---: | :---: |
-| <img src="l2ss/Screenshot%202026-03-02%20183502.png" width="400"> | <img src="l2ss/Screenshot%202026-03-02%20183534.png" width="400"> |
-
-| Transaction Signature | Success & Notification |
-| :---: | :---: |
-| <img src="l2ss/Screenshot%202026-03-02%20183652.png" width="400"> | <img src="l2ss/Screenshot%202026-03-02%20183719.png" width="400"> |
-
-| Gratitude Certificate | Stellar.Expert Explorer |
-| :---: | :---: |
-| <img src="l2ss/Screenshot%202026-03-02%20183813.png" width="400"> | <img src="l2ss/Screenshot%202026-03-02%20183837.png" width="400"> |
-
-**Smart Contract Test Suite Results (`cargo test`)**  
-<img src="l2ss/cargo tests.png" alt="cargo tests" width="800">
-
----
 
 ## 🛠️ Architecture & Tech Stack
 

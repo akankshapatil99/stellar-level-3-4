@@ -88,3 +88,48 @@ cd ../frontend
 npm install
 npm run build
 ```
+
+## Deployment
+
+Deploying Nexus involves two main phases: Backend (Smart Contract) and Frontend (React App).
+
+### 1. Smart Contract Deployment (Backend)
+
+Ensure you have the [Stellar CLI](https://developers.stellar.org/docs/build/smart-contracts/getting-started/setup#install-the-stellar-cli) installed and configured for Testnet.
+
+1. **Build the WASM binary**:
+   ```bash
+   cd contract
+   cargo build --target wasm32-unknown-unknown --release
+   ```
+2. **Deploy to Testnet**:
+   ```bash
+   stellar contract deploy \
+     --wasm target/wasm32-unknown-unknown/release/soroban_crowdfunding_contract.wasm \
+     --source <YOUR_ACCOUNT_NAME> \
+     --network testnet
+   ```
+   *Take note of the returned **Contract ID**.*
+3. **Initialize the contract**:
+   ```bash
+   stellar contract invoke \
+     --id <YOUR_CONTRACT_ID> \
+     --source <YOUR_ACCOUNT_NAME> \
+     --network testnet \
+     -- initialize
+   ```
+
+### 2. Application Deployment (Frontend)
+
+1. **Update Contract ID**: 
+   Open `frontend/src/contract.js` and replace `CONTRACT_ID` with the ID obtained during deployment.
+2. **Configure Environment**: 
+   Ensure you are targeting the correct RPC endpoint (currently set to `https://soroban-testnet.stellar.org`).
+3. **Build for Production**:
+   ```bash
+   cd frontend
+   npm run build
+   ```
+4. **Hosting**: 
+   Upload the contents of the `frontend/dist` folder to your provider (Vercel, Netlify, or AWS). If using GitHub integration, ensure the build command is `npm run build` and the output directory is `dist`.
+

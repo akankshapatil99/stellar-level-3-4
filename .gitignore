@@ -1,16 +1,30 @@
-# Local Netlify folder
-.netlify
-
-# Build directories
-target/
-target_*/
+# Node.js
 node_modules/
 dist/
+.npm
 
-# Rust test outputs
+# Rust / Cargo build artifacts
+target/
+target_*/
+**/*.rs.bk
+Cargo.lock
+
+# Netlify
+.netlify
+
+# CI debug artifacts
+contract/build_error.txt
 test_output.txt
 test_output_utf8.txt
 
-# Editor and OS files
+# Editor and OS
 .vscode/
 .DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Environment files
+.env
+.env.local
+.env.*.local

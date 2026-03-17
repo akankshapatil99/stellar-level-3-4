@@ -9,14 +9,19 @@ target_*/
 **/*.rs.bk
 Cargo.lock
 
-# Netlify
+# Netlify / Vercel
 .netlify
+.vercel
 
-# CI debug artifacts
-contract/build_error.txt
-contract/test_snapshots/
-test_output.txt
-test_output_utf8.txt
+# Temporary debug/output files
+contract/*.txt
+contract/*.log
+frontend/check_output.txt
+frontend/check_output.json
+frontend/sim_out.json
+frontend/sim_test.json
+# Keep contract_id.txt (used by frontend scripts)
+!contract/contract_id.txt
 
 # Editor and OS
 .vscode/
